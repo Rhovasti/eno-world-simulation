@@ -1,0 +1,56 @@
+# Build artifacts
+target/
+*.o
+*.so
+*.dylib
+*.dll
+*.wasm
+*.rlib
+
+# Logs
+*.log
+log.log
+*.log.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker volumes and data
+data/postgres/
+data/spacetime/
+
+# Large geospatial data files
+*.geojson
+*.json
+data/fields*/
+data/viivat/
+data/other/
+data/districts/
+data/buildings/
+data/people/
+
+# System files
+*.Zone.Identifier
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+.npm
+.yarn
+
+# Runtime files
+*.pid
+nohup.out

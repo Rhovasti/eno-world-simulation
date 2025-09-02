@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Simulation Client Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .demo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .demo-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .demo-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+        }
+
+        .demo-card h3 {
+            color: #4a5568;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+
+        .demo-card p {
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .status {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .status-connected { background: #48bb78; }
+        .status-disconnected { background: #f56565; }
+        .status-connecting { background: #ed8936; }
+
+        .output {
+            background: #2d3748;
+            color: #e2e8f0;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 14px;
+            line-height: 1.5;
+            max-height: 400px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .tabs {
+            display: flex;
+            background: white;
+            border-radius: 12px 12px 0 0;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .tab {
+            flex: 1;
+            padding: 15px 20px;
+            background: #f7fafc;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .tab.active {
+            background: white;
+            color: #667eea;
+        }
+
+        .tab-content {
+            background: white;
+            border-radius: 0 0 12px 12px;
+            padding: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .info-box {
+            background: linear-gradient(135deg, #e6fffa 0%, #b2f5ea 100%);
+            border-left: 4px solid #38b2ac;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+
+        .info-box h4 {
+            color: #234e52;
+            margin-bottom: 8px;
+        }
+
+        .info-box p {
+            color: #234e52;
+            margin: 0;
+        }
+
+        .code-snippet {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 14px;
+            margin: 15px 0;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌍 World Simulation Client</h1>
+            <p>Interactive demo for TypeScript client library with AI narrative generation</p>
+        </div>
+
+        <div class="status">
+            <h3>
+                <span class="status-indicator status-disconnected" id="statusIndicator"></span>
+                Connection Status: <span id="statusText">Disconnected</span>
+            </h3>
+            <button class="btn" id="connectBtn" onclick="toggleConnection()">Connect to Simulation</button>
+        </div>
+
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('basic')">Basic Usage</button>
+            <button class="tab" onclick="showTab('narrative')">AI Narrative</button>
+            <button class="tab" onclick="showTab('locations')">Locations</button>
+            <button class="tab" onclick="showTab('characters')">Characters</button>
+            <button class="tab" onclick="showTab('testing')">Testing Guide</button>
+        </div>
+
+        <div class="tab-content">
+            <!-- Basic Usage Tab -->
+            <div id="basic-tab" class="tab-panel">
+                <h3>🚀 Basic Operations</h3>
+                <p>Test fundamental client operations and status queries.</p>
+                
+                <div class="demo-grid">
+                    <div class="demo-card">
+                        <h3>⏰ Simulation Status</h3>
+                        <p>Get current time, auto-tick status, and simulation info</p>
+                        <button class="btn" onclick="getSimulationStatus()">Get Status</button>
+                    </div>
+                    
+                    <div class="demo-card">
+                        <h3>🏙️ City Information</h3>
+                        <p>Query detailed information about a specific city</p>
+                        <input type="text" id="cityInput" placeholder="Enter city name (e.g., Tsin)" style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 4px;">
+                        <button class="btn" onclick="getCityInfo()">Get City Info</button>
+                    </div>
+                    
+                    <div class="demo-card">
+                        <h3>📰 Recent Events</h3>
+                        <p>View recent events for a location</p>
+                        <button class="btn" onclick="getRecentEvents()">Get Events</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Narrative Tab -->
+            <div id="narrative-tab" class="tab-panel hidden">
+                <h3>🤖 AI Narrative Generation</h3>
+                <p>Demonstrate AI-friendly narrative APIs for storytelling systems.</p>
+                
+                <div class="demo-grid">
+                    <div class="demo-card">
+                        <h3>📖 Story Context</h3>
+                        <p>Get comprehensive story context for narrative generation</p>
+                        <button class="btn" onclick="getStoryContext()">Generate Story Context</button>
+                    </div>
+                    
+                    <div class="demo-card">
+                        <h3>📝 Location Narrative</h3>
+                        <p>Generate complete narrative for a location</p>
+                        <button class="btn" onclick="generateNarrative()">Generate Narrative</button>
+                    </div>
+                    
+                    <div class="demo-card">
+                        <h3>🎭 Story Themes</h3>
+                        <p>Get narrative suggestions by theme</p>
+                        <select id="themeSelect" style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 4px;">
+                            <option value="adventure">Adventure</option>
+                            <option value="mystery">Mystery</option>
+                            <option value="drama">Drama</option>
+                            <option value="slice-of-life">Slice of Life</option>
+                        </select>
+                        <button class="btn" onclick="getThemeNarratives()">Get Story Ideas</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Locations Tab -->
+            <div id="locations-tab" class="tab-panel hidden">
+                <h3>🗺️ Location Explorer</h3>
+                <p>Explore the world's cities, valleys, and geographical features.</p>
+                
+                <div class="demo-grid">
+                    <div class="demo-card">
+                        <h3>🌍 World Statistics</h3>
+                        <p>Overview of cities, valleys, and distribution</p>
+                        <button class="btn" onclick="getWorldStats()">Get World Stats</button>
+                    </div>
+                    
+                    <div class="demo-card">
+                        <h3>🏔️ Valley Explorer</h3>
+                        <p>Explore cities in different valleys</p>
+                        <select id="valleySelect" style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 4px;">
+                            <option value="Dawn">Valley of the Dawn</option>
+                            <option value="Day">Valley of the Day</option>
+                            <option value="Dusk">Valley of the Dusk</option>
+                            <option value="Night">Valley of the Night</option>
+                        </select>
+                        <button class="btn" onclick="exploreValley()">Explore Valley</button>
+                    </div>
+                    
+                    <div class="demo-card">
+                        <h3>🎲 Random Discovery</h3>
+                        <p>Discover random cities and compare locations</p>
+                        <button class="btn" onclick="randomDiscovery()">Random City</button>
+                        <button class="btn" onclick="compareLocations()">Compare Two Cities</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Characters Tab -->
+            <div id="characters-tab" class="tab-panel hidden">
+                <h3>👤 Character Analysis</h3>
+                <p>Analyze individuals and generate character-focused narratives.</p>
+                
+                <div class="demo-grid">
+                    <div class="demo-card">
+                        <h3>📊 Character Overview</h3>
+                        <p>Get statistics about all characters in simulation</p>
+                        <button class="btn" onclick="getCharacterOverview()">Character Stats</button>
+                    </div>
+                    
+                    <div class="demo-card">
+                        <h3>🌟 Featured Characters</h3>
+                        <p>Find interesting characters for stories</p>
+                        <button class="btn" onclick="getFeaturedCharacters()">Find Characters</button>
+                    </div>
+                    
+                    <div class="demo-card">
+                        <h3>📖 Character Stories</h3>
+                        <p>Generate character-focused narratives</p>
+                        <button class="btn" onclick="generateCharacterStory()">Generate Story</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testing Guide Tab -->
+            <div id="testing-tab" class="tab-panel hidden">
+                <h3>🧪 Testing Guide</h3>
+                
+                <div class="info-box">
+                    <h4>Prerequisites</h4>
+                    <p>Make sure the World Simulation is running on localhost:3001 before testing.</p>
+                </div>
+
+                <h4>1. Start the Simulation Server</h4>
+                <div class="code-snippet">cd /root/Eno/simulation2
+./start-simulation.sh start</div>
+
+                <h4>2. Run TypeScript Examples</h4>
+                <div class="code-snippet">cd /root/Eno/simulation2/world-simulation-client
+
+# Install dependencies
+npm install
+
+# Build the library
+npm run build
+
+# Run all examples
+npm run example:all
+
+# Run specific examples
+npm run example:basic
+npm run example:ai
+npm run example:locations</div>
+
+                <h4>3. Start Demo Website</h4>
+                <div class="code-snippet"># Start development server (port 3002)
+npm run demo
+
+# Or build and serve
+npm run build
+npm run preview</div>
+
+                <h4>4. Test from Command Line</h4>
+                <div class="code-snippet"># Quick AI demo
+node dist/examples/index.js quick
+
+# Run individual examples
+node dist/examples/index.js basic
+node dist/examples/index.js ai
+node dist/examples/index.js characters</div>
+
+                <h4>5. Integration Testing</h4>
+                <p>Use the client library in your own projects:</p>
+                <div class="code-snippet">import { WorldSimulation } from 'world-simulation-client';
+
+const simulation = new WorldSimulation('ws://localhost:3001');
+await simulation.connect();
+
+// Get story data for AI narratives
+const storyData = await simulation.narrative.getContextForStory('Tsin');
+console.log(storyData);</div>
+
+                <div class="info-box">
+                    <h4>Troubleshooting</h4>
+                    <p>If connection fails, verify the simulation server is running and accessible on port 3001. Check console for detailed error messages.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="output" id="output">
+Welcome to World Simulation Client Demo!
+
+Click "Connect to Simulation" to begin, then explore the different tabs to test functionality.
+
+Output will appear here...
+        </div>
+    </div>
+
+    <script type="module">
+        import { WorldSimulation } from '../dist/simple-build.js';
+        
+        let simulation = null;
+        let isConnected = false;
+
+        // Make functions globally available
+        window.toggleConnection = toggleConnection;
+        window.showTab = showTab;
+        window.getSimulationStatus = getSimulationStatus;
+        window.getCityInfo = getCityInfo;
+        window.getRecentEvents = getRecentEvents;
+        window.getStoryContext = getStoryContext;
+        window.generateNarrative = generateNarrative;
+        window.getThemeNarratives = getThemeNarratives;
+        window.getWorldStats = getWorldStats;
+        window.exploreValley = exploreValley;
+        window.randomDiscovery = randomDiscovery;
+        window.compareLocations = compareLocations;
+        window.getCharacterOverview = getCharacterOverview;
+        window.getFeaturedCharacters = getFeaturedCharacters;
+        window.generateCharacterStory = generateCharacterStory;
+
+        function log(message) {
+            const output = document.getElementById('output');
+            const timestamp = new Date().toLocaleTimeString();
+            output.textContent += `\n[${timestamp}] ${message}`;
+            output.scrollTop = output.scrollHeight;
+        }
+
+        function updateStatus(status, text) {
+            const indicator = document.getElementById('statusIndicator');
+            const statusText = document.getElementById('statusText');
+            const connectBtn = document.getElementById('connectBtn');
+            
+            indicator.className = `status-indicator status-${status}`;
+            statusText.textContent = text;
+            
+            if (status === 'connected') {
+                connectBtn.textContent = 'Disconnect';
+                isConnected = true;
+            } else {
+                connectBtn.textContent = 'Connect to Simulation';
+                isConnected = false;
+            }
+        }
+
+        async function toggleConnection() {
+            if (isConnected) {
+                simulation?.disconnect();
+                simulation = null;
+                updateStatus('disconnected', 'Disconnected');
+                log('Disconnected from simulation');
+                return;
+            }
+
+            try {
+                updateStatus('connecting', 'Connecting...');
+                log('Connecting to World Simulation at ws://localhost:3001...');
+                
+                simulation = new WorldSimulation('ws://localhost:3001');
+                await simulation.connect();
+                
+                updateStatus('connected', 'Connected');
+                log('✅ Successfully connected to simulation!');
+                
+                // Get initial status
+                const status = await simulation.client.getSimulationStatus();
+                log(`Current simulation hour: ${status.current_hour}`);
+                log(`Auto-tick enabled: ${status.auto_tick_enabled}`);
+                
+            } catch (error) {
+                updateStatus('disconnected', 'Connection Failed');
+                log(`❌ Connection failed: ${error.message}`);
+                log('Make sure the simulation server is running on localhost:3001');
+            }
+        }
+
+        function showTab(tabName) {
+            // Hide all tabs
+            document.querySelectorAll('.tab-panel').forEach(panel => {
+                panel.classList.add('hidden');
+            });
+            
+            // Remove active class from all tabs
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show selected tab
+            document.getElementById(`${tabName}-tab`).classList.remove('hidden');
+            event.target.classList.add('active');
+        }
+
+        async function executeWithLoading(func, description) {
+            if (!isConnected) {
+                log('❌ Please connect to simulation first');
+                return;
+            }
+
+            try {
+                log(`🔄 ${description}...`);
+                await func();
+            } catch (error) {
+                log(`❌ Error: ${error.message}`);
+            }
+        }
+
+        async function getSimulationStatus() {
+            await executeWithLoading(async () => {
+                const status = await simulation.client.getSimulationStatus();
+                log('📊 Simulation Status:');
+                log(`  Current Hour: ${status.current_hour}`);
+                log(`  Auto-tick: ${status.auto_tick_enabled ? 'Enabled' : 'Disabled'}`);
+                log(`  Tick Interval: ${status.tick_interval_ms}ms`);
+                log(`  Total Days: ${status.total_days}`);
+            }, 'Getting simulation status');
+        }
+
+        async function getCityInfo() {
+            await executeWithLoading(async () => {
+                const cityName = document.getElementById('cityInput').value || 'Tsin';
+                const cityState = await simulation.client.getLocationState(cityName);
+                
+                log(`🏙️ ${cityState.city} Information:`);
+                log(`  Valley: ${cityState.valley}`);
+                log(`  Population: ${cityState.population.toLocaleString()}`);
+                log(`  Time of Day: ${cityState.time_of_day}`);
+                log(`  Active Buildings: ${cityState.active_buildings}`);
+            }, 'Getting city information');
+        }
+
+        async function getRecentEvents() {
+            await executeWithLoading(async () => {
+                const events = await simulation.client.getLocationHistory('Tsin', { hours_back: 12 });
+                log(`📰 Recent Events in Tsin (${events.length} events):`);
+                
+                if (events.length > 0) {
+                    events.slice(0, 5).forEach((event, index) => {
+                        log(`  ${index + 1}. ${event.description}`);
+                        log(`     Participants: ${event.participants.join(', ')}`);
+                    });
+                } else {
+                    log('  No recent events found');
+                }
+            }, 'Getting recent events');
+        }
+
+        async function getStoryContext() {
+            await executeWithLoading(async () => {
+                const context = await simulation.narrative.getContextForStory('Citadel of Utaia');
+                
+                log('📖 Story Context for Citadel of Utaia:');
+                log(`  Location: ${context.location.city} (${context.location.valley} Valley)`);
+                log(`  Population: ${context.location.population.toLocaleString()}`);
+                log(`  Time: ${context.location.time_of_day}`);
+                log(`  Characters Available: ${context.characters.length}`);
+                log(`  Recent Events: ${context.recent_events.length}`);
+                
+                if (context.suggested_narratives.length > 0) {
+                    log('  Story Suggestions:');
+                    context.suggested_narratives.forEach((suggestion, index) => {
+                        log(`    ${index + 1}. ${suggestion}`);
+                    });
+                }
+            }, 'Generating story context');
+        }
+
+        async function generateNarrative() {
+            await executeWithLoading(async () => {
+                const narrative = await simulation.narrative.generateLocationNarrative('Tsin', 12, true);
+                log('📝 Generated Narrative for Tsin:');
+                log('─'.repeat(50));
+                log(narrative);
+                log('─'.repeat(50));
+            }, 'Generating location narrative');
+        }
+
+        async function getThemeNarratives() {
+            await executeWithLoading(async () => {
+                const theme = document.getElementById('themeSelect').value;
+                const suggestions = await simulation.narrative.getNarrativeSuggestions(theme, 'Citadel of Utaia');
+                
+                log(`🎭 ${theme.toUpperCase()} Story Ideas:`);
+                
+                suggestions.suggestions.forEach((idea, index) => {
+                    log(`\n${index + 1}. "${idea.title}"`);
+                    log(`   Premise: ${idea.premise}`);
+                    log(`   Setting: ${idea.setting}`);
+                    log(`   Characters: ${idea.characters.join(', ')}`);
+                    log(`   Conflicts: ${idea.potential_conflicts.join(', ')}`);
+                });
+            }, 'Getting theme-based narratives');
+        }
+
+        async function getWorldStats() {
+            await executeWithLoading(async () => {
+                const overview = await simulation.client.getLocationOverview();
+                
+                log('🌍 World Statistics:');
+                log(`  Total Cities: ${overview.world_stats.total_cities}`);
+                log(`  Capital Cities: ${overview.capital_cities.length}`);
+                log(`  Largest Valley: ${overview.world_stats.largest_valley}`);
+                log(`  Distribution:`);
+                
+                Object.entries(overview.world_stats.valley_distribution).forEach(([valley, count]) => {
+                    log(`    ${valley}: ${count} cities`);
+                });
+            }, 'Getting world statistics');
+        }
+
+        async function exploreValley() {
+            await executeWithLoading(async () => {
+                const valley = document.getElementById('valleySelect').value;
+                const overview = await simulation.client.getLocationOverview(valley);
+                
+                log(`🏔️ ${valley} Valley Exploration:`);
+                log(`  Cities: ${overview.total_cities_available}`);
+                log(`  Sample Cities:`);
+                
+                overview.sample_cities.forEach(city => {
+                    log(`    ${city.city}: ${city.population.toLocaleString()} residents, ${city.time_of_day}`);
+                });
+            }, 'Exploring valley');
+        }
+
+        async function randomDiscovery() {
+            await executeWithLoading(async () => {
+                // Import utility functions would need to be handled differently in browser
+                // For demo purposes, we'll pick from known cities
+                const cities = ['Tsin', 'Beitsa', 'Jouy', 'Palwede', 'Citadel of Utaia'];
+                const randomCity = cities[Math.floor(Math.random() * cities.length)];
+                
+                const cityState = await simulation.client.getLocationState(randomCity);
+                
+                log(`🎲 Random Discovery: ${randomCity}`);
+                log(`  Valley: ${cityState.valley}`);
+                log(`  Population: ${cityState.population.toLocaleString()}`);
+                log(`  Time of Day: ${cityState.time_of_day}`);
+                log(`  Active Buildings: ${cityState.active_buildings}`);
+            }, 'Random city discovery');
+        }
+
+        async function compareLocations() {
+            await executeWithLoading(async () => {
+                const comparison = await simulation.narrative.getComparativeNarrative('Tsin', 'Palwede', 6);
+                
+                log('⚖️ Comparative Analysis: Tsin vs Palwede');
+                log('─'.repeat(50));
+                log(comparison.comparison_narrative);
+                log('─'.repeat(50));
+            }, 'Comparing locations');
+        }
+
+        async function getCharacterOverview() {
+            await executeWithLoading(async () => {
+                const individuals = await simulation.client.spacetimeClient.getIndividuals();
+                
+                log(`👥 Character Overview:`);
+                log(`  Total Characters: ${individuals.length}`);
+                
+                if (individuals.length > 0) {
+                    // Calculate basic stats
+                    const avgAge = individuals.reduce((sum, ind) => sum + ind.age, 0) / individuals.length;
+                    const avgEnergy = individuals.reduce((sum, ind) => sum + ind.energy, 0) / individuals.length;
+                    
+                    log(`  Average Age: ${avgAge.toFixed(1)} years`);
+                    log(`  Average Energy: ${(avgEnergy * 100).toFixed(1)}%`);
+                    
+                    // Show some sample characters
+                    log('  Sample Characters:');
+                    individuals.slice(0, 5).forEach((char, index) => {
+                        log(`    ${index + 1}. ${char.name} (age ${char.age})`);
+                    });
+                } else {
+                    log('  No characters found in simulation');
+                }
+            }, 'Getting character overview');
+        }
+
+        async function getFeaturedCharacters() {
+            await executeWithLoading(async () => {
+                const individuals = await simulation.client.spacetimeClient.getIndividuals();
+                
+                if (individuals.length === 0) {
+                    log('❌ No characters found in simulation');
+                    return;
+                }
+                
+                // Find interesting characters
+                const energetic = individuals.sort((a, b) => b.energy - a.energy).slice(0, 3);
+                const young = individuals.filter(ind => ind.age < 30).slice(0, 3);
+                
+                log('🌟 Featured Characters:');
+                
+                log('\n⚡ Most Energetic:');
+                energetic.forEach((char, index) => {
+                    log(`  ${index + 1}. ${char.name} (energy: ${(char.energy * 100).toFixed(0)}%)`);
+                });
+                
+                if (young.length > 0) {
+                    log('\n👶 Youngest:');
+                    young.forEach((char, index) => {
+                        log(`  ${index + 1}. ${char.name} (age ${char.age})`);
+                    });
+                }
+            }, 'Finding featured characters');
+        }
+
+        async function generateCharacterStory() {
+            await executeWithLoading(async () => {
+                const individuals = await simulation.client.spacetimeClient.getIndividuals();
+                
+                if (individuals.length === 0) {
+                    log('❌ No characters found in simulation');
+                    return;
+                }
+                
+                // Pick first character for demo
+                const character = individuals[0];
+                const storyContext = await simulation.narrative.getCharacterStoryContext(character.id, 24);
+                
+                log(`📖 Character Story: ${character.name}`);
+                log('─'.repeat(50));
+                log(storyContext.narrative_summary);
+                log('─'.repeat(50));
+                
+                if (storyContext.story_events.length > 0) {
+                    log('\nRecent Events:');
+                    storyContext.story_events.slice(0, 3).forEach((event, index) => {
+                        log(`  ${index + 1}. ${event.description}`);
+                    });
+                }
+            }, 'Generating character story');
+        }
+
+        // Initialize
+        log('World Simulation Client Demo initialized');
+        log('Click "Connect to Simulation" to begin testing');
+    </script>
+</body>
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Simulation Client - Simple Demo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 20px 0;
+            backdrop-filter: blur(10px);
+        }
+        .btn {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 10px 5px;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        .output {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            font-family: monospace;
+            white-space: pre-wrap;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .status {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        .status-connected { background: #48bb78; }
+        .status-disconnected { background: #f56565; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 World Simulation Client</h1>
+        <p>Simple demo for testing TypeScript client functionality</p>
+
+        <div class="card">
+            <h3>
+                <span class="status status-disconnected" id="statusIndicator"></span>
+                Connection Status: <span id="statusText">Ready to Connect</span>
+            </h3>
+            <button class="btn" onclick="testConnection()">Test Connection</button>
+            <button class="btn" onclick="testSimulationStatus()">Get Simulation Status</button>
+            <button class="btn" onclick="testCityInfo()">Get City Info</button>
+            <button class="btn" onclick="testLocationExplorer()">Explore Locations</button>
+            <button class="btn" onclick="clearOutput()">Clear Output</button>
+        </div>
+
+        <div class="card">
+            <h3>📖 Testing Guide</h3>
+            <p><strong>Prerequisites:</strong></p>
+            <ol>
+                <li>Start simulation server: <code>cd /root/Eno/simulation2 && ./start-simulation.sh start</code></li>
+                <li>Build client library: <code>cd world-simulation-client && npm run build</code></li>
+                <li>Start demo: <code>npm run demo</code></li>
+            </ol>
+            
+            <p><strong>Test Methods:</strong></p>
+            <ul>
+                <li><strong>Interactive Demo:</strong> Use buttons above to test features</li>
+                <li><strong>Command Line:</strong> <code>npm run example:quick</code></li>
+                <li><strong>All Examples:</strong> <code>npm run example:all</code></li>
+            </ul>
+        </div>
+
+        <div class="output" id="output">
+World Simulation Client Demo - Ready for Testing
+
+Click the buttons above to test different features.
+This demo will work even if the simulation server is not running (using mock data).
+
+Output will appear here...
+        </div>
+    </div>
+
+    <script>
+        let isConnected = false;
+
+        function log(message) {
+            const output = document.getElementById('output');
+            const timestamp = new Date().toLocaleTimeString();
+            output.textContent += `\n[${timestamp}] ${message}`;
+            output.scrollTop = output.scrollHeight;
+        }
+
+        function updateStatus(connected) {
+            const indicator = document.getElementById('statusIndicator');
+            const statusText = document.getElementById('statusText');
+            
+            if (connected) {
+                indicator.className = 'status status-connected';
+                statusText.textContent = 'Connected (Mock)';
+                isConnected = true;
+            } else {
+                indicator.className = 'status status-disconnected';
+                statusText.textContent = 'Disconnected';
+                isConnected = false;
+            }
+        }
+
+        function testConnection() {
+            log('🔄 Testing connection to simulation server...');
+            
+            // Simulate connection attempt
+            setTimeout(() => {
+                // For demo purposes, always "succeed" with mock data
+                updateStatus(true);
+                log('✅ Connected successfully (using mock data for demo)');
+                log('Note: This demo works with or without the actual simulation server');
+            }, 1000);
+        }
+
+        function testSimulationStatus() {
+            if (!isConnected) {
+                log('❌ Please test connection first');
+                return;
+            }
+
+            log('📊 Getting simulation status...');
+            
+            // Mock simulation status
+            const mockStatus = {
+                current_hour: Math.floor(Math.random() * 1000) + 100,
+                auto_tick_enabled: Math.random() > 0.5,
+                tick_interval_ms: 1000,
+                total_days: Math.floor(Math.random() * 50) + 10
+            };
+
+            setTimeout(() => {
+                log('📊 Simulation Status:');
+                log(`  Current Hour: ${mockStatus.current_hour}`);
+                log(`  Auto-tick: ${mockStatus.auto_tick_enabled ? 'Enabled' : 'Disabled'}`);
+                log(`  Tick Interval: ${mockStatus.tick_interval_ms}ms`);
+                log(`  Total Days: ${mockStatus.total_days}`);
+            }, 500);
+        }
+
+        function testCityInfo() {
+            if (!isConnected) {
+                log('❌ Please test connection first');
+                return;
+            }
+
+            const cities = ['Tsin', 'Beitsa', 'Jouy', 'Palwede', 'Citadel of Utaia'];
+            const valleys = ['Dawn', 'Day', 'Dusk', 'Night'];
+            const timesOfDay = ['Dawn', 'Day', 'Dusk', 'Night'];
+            
+            const randomCity = cities[Math.floor(Math.random() * cities.length)];
+            const randomValley = valleys[Math.floor(Math.random() * valleys.length)];
+            const randomTimeOfDay = timesOfDay[Math.floor(Math.random() * timesOfDay.length)];
+            
+            log(`🏙️ Getting information for ${randomCity}...`);
+            
+            const mockCityInfo = {
+                city: randomCity,
+                valley: randomValley,
+                population: Math.floor(Math.random() * 50000) + 5000,
+                time_of_day: randomTimeOfDay,
+                active_buildings: Math.floor(Math.random() * 200) + 50
+            };
+
+            setTimeout(() => {
+                log(`🏙️ ${mockCityInfo.city} Information:`);
+                log(`  Valley: ${mockCityInfo.valley}`);
+                log(`  Population: ${mockCityInfo.population.toLocaleString()}`);
+                log(`  Time of Day: ${mockCityInfo.time_of_day}`);
+                log(`  Active Buildings: ${mockCityInfo.active_buildings}`);
+            }, 500);
+        }
+
+        function testLocationExplorer() {
+            if (!isConnected) {
+                log('❌ Please test connection first');
+                return;
+            }
+
+            log('🗺️ Exploring world locations...');
+            
+            const worldStats = {
+                total_cities: 160,
+                valley_distribution: {
+                    'Dawn': 43,
+                    'Day': 37, 
+                    'Dusk': 43,
+                    'Night': 29
+                },
+                capital_cities: ['Citadel of Utaia', 'Citadel of Almo', 'Citadel of the Pass']
+            };
+
+            setTimeout(() => {
+                log('🌍 World Statistics:');
+                log(`  Total Cities: ${worldStats.total_cities}`);
+                log(`  Valley Distribution:`);
+                Object.entries(worldStats.valley_distribution).forEach(([valley, count]) => {
+                    log(`    ${valley}: ${count} cities`);
+                });
+                log(`  Capital Cities: ${worldStats.capital_cities.join(', ')}`);
+            }, 500);
+        }
+
+        function clearOutput() {
+            document.getElementById('output').textContent = 'Output cleared. Ready for new tests...';
+        }
+
+        // Initialize
+        log('World Simulation Client Demo initialized');
+        log('Click "Test Connection" to begin');
+    </script>
+</body>
+</html>
