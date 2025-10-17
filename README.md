@@ -1,6 +1,12 @@
-# World Simulation - SpacetimeDB 1.1.2
+# Eno World Simulation
 
-A hierarchical world simulation running on SpacetimeDB that models individuals, buildings, and cities through interconnected need systems.
+A hierarchical world simulation system running on SpacetimeDB that models individuals, buildings, and cities through interconnected need systems with AI-powered narrative generation.
+
+## Repository
+
+**GitHub**: https://github.com/Rhovasti/eno-world-simulation
+
+This repository contains a sophisticated world simulation engine that supports multiple game worlds, narrative generation, economic systems, and political dynamics.
 
 ## Quick Start
 
@@ -60,9 +66,18 @@ A hierarchical world simulation running on SpacetimeDB that models individuals, 
 
 The simulation operates on three interconnected levels:
 
-1. **Individual Level** - People with physiological/psychological needs
-2. **Building Level** - Structures that serve human occupants  
+1. **Individual Level** - People with physiological/psychological needs and AI goals
+2. **Building Level** - Structures that serve human occupants
 3. **City Level** - Urban systems emerging from building/human interactions
+
+### Advanced Features
+
+- **Multi-World Support**: Run 100+ simultaneous game worlds
+- **Narrative Generation**: AI-powered story events and character arcs
+- **Economic Simulation**: Market dynamics, trade routes, resource management
+- **Political Systems**: Faction relationships, succession dynamics, diplomacy
+- **Natural Events**: Weather patterns, seasonal cycles, disasters
+- **Agent AI**: NPCs with goals, motivations, and relationship networks
 
 ### Time System
 
