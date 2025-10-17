@@ -8,12 +8,26 @@ pub mod systems;
 pub mod reducers;
 pub mod data_import;
 
+// NEW: Extended modules for narrative generation
+pub mod world;
+pub mod narrative;
+pub mod economics;
+pub mod political;
+pub mod scheduler;
+pub mod natural;
+
 use spacetimedb::{ReducerContext, Table};
 
 // Re-export public APIs except conflicting types
 pub use systems::*;
 pub use reducers::*;
 pub use data_import::*;
+pub use world::*;
+pub use narrative::*;
+pub use economics::*;
+pub use political::*;
+pub use scheduler::*;
+pub use natural::*;
 
 /// Module initialization
 #[spacetimedb::reducer(init)]

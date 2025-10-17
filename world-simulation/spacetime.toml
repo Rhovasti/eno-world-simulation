@@ -1,0 +1,4 @@
+# SpacetimeDB module configuration
+[module]
+name = "world-simulation"
+description = "Hierarchical world simulation with individuals, buildings, and cities"

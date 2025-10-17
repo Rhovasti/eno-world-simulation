@@ -1,0 +1,1361 @@
+Global pass complete.
+Unemployed remaining: 769050
+Updated file written to population_with_workplaces_global.json
+
+Organizations with at least 50% outside workforce:
+ - Jouy War Band (City: Jouy)
+   Assigned total: 350, Local: 2, Outside: 348, Outside fraction: 99.4%
+ - Gatherers of Jouy (City: Jouy)
+   Assigned total: 1664, Local: 3, Outside: 1661, Outside fraction: 99.8%
+ - Keepers of Jouy Traditions (City: Jouy)
+   Assigned total: 1696, Local: 5, Outside: 1691, Outside fraction: 99.7%
+ - Protectors of Jouy (City: Jouy)
+   Assigned total: 453, Local: 1, Outside: 452, Outside fraction: 99.8%
+ - Tribal Guard of Motu (City: Motu)
+   Assigned total: 841, Local: 6, Outside: 835, Outside fraction: 99.3%
+ - Mystic Order of Motu (City: Motu)
+   Assigned total: 202, Local: 1, Outside: 201, Outside fraction: 99.5%
+ - Ancestral Keepers of Motu (City: Motu)
+   Assigned total: 1541, Local: 13, Outside: 1528, Outside fraction: 99.2%
+ - Mystic Council of Motu (City: Motu)
+   Assigned total: 826, Local: 3, Outside: 823, Outside fraction: 99.6%
+ - Merchant Guild of Palwede (City: Palwede)
+   Assigned total: 2374, Local: 62, Outside: 2312, Outside fraction: 97.4%
+ - Noble House of Palwede (City: Palwede)
+   Assigned total: 2919, Local: 75, Outside: 2844, Outside fraction: 97.4%
+ - Alchemists of Palwede (City: Palwede)
+   Assigned total: 5852, Local: 171, Outside: 5681, Outside fraction: 97.1%
+ - Palwede Shadow Guild (City: Palwede)
+   Assigned total: 2900, Local: 84, Outside: 2816, Outside fraction: 97.1%
+ - Ancestral Keepers of Guild (City: Guild)
+   Assigned total: 10561, Local: 616, Outside: 9945, Outside fraction: 94.2%
+ - Warriors of Guild (City: Guild)
+   Assigned total: 1123, Local: 67, Outside: 1056, Outside fraction: 94.0%
+ - Wild Hunters of Guild (City: Guild)
+   Assigned total: 4046, Local: 248, Outside: 3798, Outside fraction: 93.9%
+ - Mystic Council of Jeong (City: Jeong)
+   Assigned total: 1668, Local: 79, Outside: 1589, Outside fraction: 95.3%
+ - Wise Ones of Jeong (City: Jeong)
+   Assigned total: 2911, Local: 115, Outside: 2796, Outside fraction: 96.0%
+ - Jeong Shamanic Circle (City: Jeong)
+   Assigned total: 798, Local: 25, Outside: 773, Outside fraction: 96.9%
+ - Merchants of Riroku (City: Riroku)
+   Assigned total: 322, Local: 1, Outside: 321, Outside fraction: 99.7%
+ - Holy Order of Riroku (City: Riroku)
+   Assigned total: 208, Local: 3, Outside: 205, Outside fraction: 98.6%
+ - Riroku Builder's Guild (City: Riroku)
+   Assigned total: 645, Local: 1, Outside: 644, Outside fraction: 99.8%
+ - Riroku City Watch (City: Riroku)
+   Assigned total: 776, Local: 3, Outside: 773, Outside fraction: 99.6%
+ - Merchant Association of Tsin (City: Tsin)
+   Assigned total: 92, Local: 2, Outside: 90, Outside fraction: 97.8%
+ - United Workers of Tsin (City: Tsin)
+   Assigned total: 383, Local: 3, Outside: 380, Outside fraction: 99.2%
+ - Tsin Academy (City: Tsin)
+   Assigned total: 221, Local: 2, Outside: 219, Outside fraction: 99.1%
+ - Gongshan Labor Union (City: Gongshan)
+   Assigned total: 3340, Local: 44, Outside: 3296, Outside fraction: 98.7%
+ - Trade Council of Gongshan (City: Gongshan)
+   Assigned total: 3368, Local: 51, Outside: 3317, Outside fraction: 98.5%
+ - Gongshan Engineering Society (City: Gongshan)
+   Assigned total: 5717, Local: 2732, Outside: 2985, Outside fraction: 52.2%
+ - Gyba Engineering Society (City: Gyba)
+   Assigned total: 848, Local: 6, Outside: 842, Outside fraction: 99.3%
+ - Workers Coalition of Gyba (City: Gyba)
+   Assigned total: 4047, Local: 27, Outside: 4020, Outside fraction: 99.3%
+ - Trade Council of Gyba (City: Gyba)
+   Assigned total: 1648, Local: 7, Outside: 1641, Outside fraction: 99.6%
+ - Merchant Association of Gyba (City: Gyba)
+   Assigned total: 944, Local: 3, Outside: 941, Outside fraction: 99.7%
+ - Watchmen of Beitsa (City: Beitsa)
+   Assigned total: 257, Local: 0, Outside: 257, Outside fraction: 100.0%
+ - Craftsmen Guild of Beitsa (City: Beitsa)
+   Assigned total: 66, Local: 2, Outside: 64, Outside fraction: 97.0%
+ - Beitsa Commerce League (City: Beitsa)
+   Assigned total: 63, Local: 0, Outside: 63, Outside fraction: 100.0%
+ - Beitsa Shadow Guild (City: Beitsa)
+   Assigned total: 51, Local: 0, Outside: 51, Outside fraction: 100.0%
+ - High Houses of Beitsa (City: Beitsa)
+   Assigned total: 929, Local: 119, Outside: 810, Outside fraction: 87.2%
+ - Holy Order of Bungomo (City: Bungomo)
+   Assigned total: 901, Local: 1, Outside: 900, Outside fraction: 99.9%
+ - Guild of Bungomo Crafters (City: Bungomo)
+   Assigned total: 112, Local: 2, Outside: 110, Outside fraction: 98.2%
+ - Merchant Guild of Bungomo (City: Bungomo)
+   Assigned total: 140, Local: 0, Outside: 140, Outside fraction: 100.0%
+ - Bungomo Noble Council (City: Bungomo)
+   Assigned total: 166, Local: 3, Outside: 163, Outside fraction: 98.2%
+ - Masons of Bungomo (City: Bungomo)
+   Assigned total: 271, Local: 50, Outside: 221, Outside fraction: 81.5%
+ - Chamber of Commerce of Ithemate (City: Ithemate)
+   Assigned total: 885, Local: 15, Outside: 870, Outside fraction: 98.3%
+ - United Trades of Ithemate (City: Ithemate)
+   Assigned total: 432, Local: 2, Outside: 430, Outside fraction: 99.5%
+ - Merchants League of Ithemate (City: Ithemate)
+   Assigned total: 439, Local: 8, Outside: 431, Outside fraction: 98.2%
+ - United Workers of Ithemate (City: Ithemate)
+   Assigned total: 1697, Local: 19, Outside: 1678, Outside fraction: 98.9%
+ - Pranos Commercial Council (City: Pranos)
+   Assigned total: 6340, Local: 2736, Outside: 3604, Outside fraction: 56.8%
+ - Workers Coalition of Pranos (City: Pranos)
+   Assigned total: 2843, Local: 90, Outside: 2753, Outside fraction: 96.8%
+ - Pranos Engineering Society (City: Pranos)
+   Assigned total: 3015, Local: 87, Outside: 2928, Outside fraction: 97.1%
+ - Phoelit Trading Company (City: Phoelit)
+   Assigned total: 6490, Local: 78, Outside: 6412, Outside fraction: 98.8%
+ - Guardians of Phoelit (City: Phoelit)
+   Assigned total: 3790, Local: 58, Outside: 3732, Outside fraction: 98.5%
+ - Guild of Phoelit Crafters (City: Phoelit)
+   Assigned total: 1100, Local: 14, Outside: 1086, Outside fraction: 98.7%
+ - Thieves of Phoelit (City: Phoelit)
+   Assigned total: 6964, Local: 333, Outside: 6631, Outside fraction: 95.2%
+ - Workers Coalition of Orve (City: Orve)
+   Assigned total: 266, Local: 1, Outside: 265, Outside fraction: 99.6%
+ - Cultural Society of Orve (City: Orve)
+   Assigned total: 238, Local: 2, Outside: 236, Outside fraction: 99.2%
+ - Orve Factory Union (City: Orve)
+   Assigned total: 53, Local: 0, Outside: 53, Outside fraction: 100.0%
+ - Trade Council of Orve (City: Orve)
+   Assigned total: 52, Local: 0, Outside: 52, Outside fraction: 100.0%
+ - United Trades of Orve (City: Orve)
+   Assigned total: 799, Local: 0, Outside: 799, Outside fraction: 100.0%
+ - Traditional Crafters of Bafke (City: Bafke)
+   Assigned total: 4554, Local: 50, Outside: 4504, Outside fraction: 98.9%
+ - Tribal Warriors of Bafke (City: Bafke)
+   Assigned total: 272, Local: 2, Outside: 270, Outside fraction: 99.3%
+ - Bafke Gathering Circle (City: Bafke)
+   Assigned total: 2656, Local: 25, Outside: 2631, Outside fraction: 99.1%
+ - Bafke Ancestry Guardians (City: Bafke)
+   Assigned total: 576, Local: 4, Outside: 572, Outside fraction: 99.3%
+ - Shamans of Bafke (City: Bafke)
+   Assigned total: 4274, Local: 17, Outside: 4257, Outside fraction: 99.6%
+ - Mystic Council of Mahyapak (City: Mahyapak)
+   Assigned total: 16938, Local: 2950, Outside: 13988, Outside fraction: 82.6%
+ - Mahyapak War Band (City: Mahyapak)
+   Assigned total: 2115, Local: 138, Outside: 1977, Outside fraction: 93.5%
+ - Ancestral Keepers of Mahyapak (City: Mahyapak)
+   Assigned total: 4056, Local: 230, Outside: 3826, Outside fraction: 94.3%
+ - Mahyapak Gathering Circle (City: Mahyapak)
+   Assigned total: 7920, Local: 504, Outside: 7416, Outside fraction: 93.6%
+ - Guild of Zadardelen Crafters (City: Zadardelen)
+   Assigned total: 8991, Local: 271, Outside: 8720, Outside fraction: 97.0%
+ - Society of Zadardelen Alchemists (City: Zadardelen)
+   Assigned total: 2433, Local: 59, Outside: 2374, Outside fraction: 97.6%
+ - Merchants of Zadardelen (City: Zadardelen)
+   Assigned total: 2680, Local: 154, Outside: 2526, Outside fraction: 94.3%
+ - Alebuo Factory Union (City: Alebuo)
+   Assigned total: 5022, Local: 71, Outside: 4951, Outside fraction: 98.6%
+ - Alebuo Commerce Chamber (City: Alebuo)
+   Assigned total: 2567, Local: 76, Outside: 2491, Outside fraction: 97.0%
+ - Cultural Circle of Alebuo (City: Alebuo)
+   Assigned total: 2380, Local: 85, Outside: 2295, Outside fraction: 96.4%
+ - Trade Union of Alebuo (City: Alebuo)
+   Assigned total: 2553, Local: 93, Outside: 2460, Outside fraction: 96.4%
+ - Workers Coalition of Jiafeng (City: Jiafeng)
+   Assigned total: 5467, Local: 48, Outside: 5419, Outside fraction: 99.1%
+ - Jiafeng Academy of Sciences (City: Jiafeng)
+   Assigned total: 5345, Local: 37, Outside: 5308, Outside fraction: 99.3%
+ - Merchants League of Jiafeng (City: Jiafeng)
+   Assigned total: 4662, Local: 38, Outside: 4624, Outside fraction: 99.2%
+ - Chamber of Commerce of Jiafeng (City: Jiafeng)
+   Assigned total: 5726, Local: 22, Outside: 5704, Outside fraction: 99.6%
+ - Scholars of Jiafeng (City: Jiafeng)
+   Assigned total: 2801, Local: 0, Outside: 2801, Outside fraction: 100.0%
+ - Sacred Healers of Mohi (City: Mohi)
+   Assigned total: 855, Local: 3, Outside: 852, Outside fraction: 99.6%
+ - Ancestral Keepers of Mohi (City: Mohi)
+   Assigned total: 100, Local: 0, Outside: 100, Outside fraction: 100.0%
+ - Hunters of Mohi (City: Mohi)
+   Assigned total: 99, Local: 0, Outside: 99, Outside fraction: 100.0%
+ - Traditional Crafters of Mohi (City: Mohi)
+   Assigned total: 322, Local: 3, Outside: 319, Outside fraction: 99.1%
+ - Spirit Council of Mohi (City: Mohi)
+   Assigned total: 1472, Local: 6, Outside: 1466, Outside fraction: 99.6%
+ - Enyhazto Gathering Circle (City: Enyhazto)
+   Assigned total: 60, Local: 0, Outside: 60, Outside fraction: 100.0%
+ - Shamans of Enyhazto (City: Enyhazto)
+   Assigned total: 46, Local: 0, Outside: 46, Outside fraction: 100.0%
+ - Enyhazto War Band (City: Enyhazto)
+   Assigned total: 711, Local: 2, Outside: 709, Outside fraction: 99.7%
+ - Tribal Guard of Enyhazto (City: Enyhazto)
+   Assigned total: 101, Local: 0, Outside: 101, Outside fraction: 100.0%
+ - Spirit Council of Enyhazto (City: Enyhazto)
+   Assigned total: 213, Local: 2, Outside: 211, Outside fraction: 99.1%
+ - Cultural Society of Tsanghom (City: Tsanghom)
+   Assigned total: 201, Local: 0, Outside: 201, Outside fraction: 100.0%
+ - United Trades of Tsanghom (City: Tsanghom)
+   Assigned total: 473, Local: 0, Outside: 473, Outside fraction: 100.0%
+ - Tsanghom Commerce Chamber (City: Tsanghom)
+   Assigned total: 243, Local: 1, Outside: 242, Outside fraction: 99.6%
+ - Chamber of Commerce of Tsanghom (City: Tsanghom)
+   Assigned total: 387, Local: 2, Outside: 385, Outside fraction: 99.5%
+ - Workers Coalition of Tsanghom (City: Tsanghom)
+   Assigned total: 229, Local: 1, Outside: 228, Outside fraction: 99.6%
+ - Trade Council of Aurola (City: Aurola)
+   Assigned total: 69, Local: 0, Outside: 69, Outside fraction: 100.0%
+ - Aurola Academy (City: Aurola)
+   Assigned total: 293, Local: 1, Outside: 292, Outside fraction: 99.7%
+ - Aurola Engineering Society (City: Aurola)
+   Assigned total: 604, Local: 2, Outside: 602, Outside fraction: 99.7%
+ - Commerce Guild of Aurola (City: Aurola)
+   Assigned total: 508, Local: 0, Outside: 508, Outside fraction: 100.0%
+ - Aurola Labor Union (City: Aurola)
+   Assigned total: 62, Local: 0, Outside: 62, Outside fraction: 100.0%
+ - Guild of Tonkhanhad Masons (City: Tonkhanhad)
+   Assigned total: 362, Local: 4, Outside: 358, Outside fraction: 98.9%
+ - Craftsmen Guild of Tonkhanhad (City: Tonkhanhad)
+   Assigned total: 560, Local: 1, Outside: 559, Outside fraction: 99.8%
+ - Merchant Guild of Tonkhanhad (City: Tonkhanhad)
+   Assigned total: 340, Local: 2, Outside: 338, Outside fraction: 99.4%
+ - Watchmen of Tonkhanhad (City: Tonkhanhad)
+   Assigned total: 1138, Local: 7, Outside: 1131, Outside fraction: 99.4%
+ - Order of Tonkhanhad Knights (City: Tonkhanhad)
+   Assigned total: 1276, Local: 10, Outside: 1266, Outside fraction: 99.2%
+ - Chamber of Commerce of Dautong (City: Dautong)
+   Assigned total: 5631, Local: 163, Outside: 5468, Outside fraction: 97.1%
+ - Dautong Commerce Chamber (City: Dautong)
+   Assigned total: 1594, Local: 55, Outside: 1539, Outside fraction: 96.5%
+ - United Trades of Dautong (City: Dautong)
+   Assigned total: 3007, Local: 84, Outside: 2923, Outside fraction: 97.2%
+ - Workers Union of Dautong (City: Dautong)
+   Assigned total: 835, Local: 27, Outside: 808, Outside fraction: 96.8%
+ - Education Society of Dautong (City: Dautong)
+   Assigned total: 1811, Local: 170, Outside: 1641, Outside fraction: 90.6%
+ - Avesia Shadow Guild (City: Avesia)
+   Assigned total: 3439, Local: 83, Outside: 3356, Outside fraction: 97.6%
+ - Avesia Trading Company (City: Avesia)
+   Assigned total: 954, Local: 16, Outside: 938, Outside fraction: 98.3%
+ - Avesia Alchemical Society (City: Avesia)
+   Assigned total: 364, Local: 13, Outside: 351, Outside fraction: 96.4%
+ - Watchmen of Avesia (City: Avesia)
+   Assigned total: 1777, Local: 57, Outside: 1720, Outside fraction: 96.8%
+ - Avesia Trading Guild (City: Avesia)
+   Assigned total: 1510, Local: 38, Outside: 1472, Outside fraction: 97.5%
+ - Sacred Healers of Briarviles (City: Briarviles)
+   Assigned total: 968, Local: 3, Outside: 965, Outside fraction: 99.7%
+ - Protectors of Briarviles (City: Briarviles)
+   Assigned total: 131, Local: 1, Outside: 130, Outside fraction: 99.2%
+ - Hunters of Briarviles (City: Briarviles)
+   Assigned total: 254, Local: 2, Outside: 252, Outside fraction: 99.2%
+ - Warriors of Briarviles (City: Briarviles)
+   Assigned total: 261, Local: 1, Outside: 260, Outside fraction: 99.6%
+ - Briarviles Shamanic Circle (City: Briarviles)
+   Assigned total: 643, Local: 2, Outside: 641, Outside fraction: 99.7%
+ - Makad Factory Union (City: Makad)
+   Assigned total: 196, Local: 0, Outside: 196, Outside fraction: 100.0%
+ - Makad Guild of Trades (City: Makad)
+   Assigned total: 114, Local: 0, Outside: 114, Outside fraction: 100.0%
+ - Technical Guild of Makad (City: Makad)
+   Assigned total: 741, Local: 3, Outside: 738, Outside fraction: 99.6%
+ - Scientific Society of Makad (City: Makad)
+   Assigned total: 340, Local: 0, Outside: 340, Outside fraction: 100.0%
+ - Makad Academy (City: Makad)
+   Assigned total: 384, Local: 2, Outside: 382, Outside fraction: 99.5%
+ - Bernala Engineering Society (City: Bernala)
+   Assigned total: 1718, Local: 28, Outside: 1690, Outside fraction: 98.4%
+ - Merchant Association of Bernala (City: Bernala)
+   Assigned total: 1860, Local: 22, Outside: 1838, Outside fraction: 98.8%
+ - Trade Council of Bernala (City: Bernala)
+   Assigned total: 5280, Local: 82, Outside: 5198, Outside fraction: 98.4%
+ - Business League of Bernala (City: Bernala)
+   Assigned total: 420, Local: 5, Outside: 415, Outside fraction: 98.8%
+ - Bernala Academy (City: Bernala)
+   Assigned total: 2854, Local: 39, Outside: 2815, Outside fraction: 98.6%
+ - Jargeroy Spirit Keepers (City: Jargeroy)
+   Assigned total: 305, Local: 1, Outside: 304, Outside fraction: 99.7%
+ - Warriors of Jargeroy (City: Jargeroy)
+   Assigned total: 2307, Local: 25, Outside: 2282, Outside fraction: 98.9%
+ - Protectors of Jargeroy (City: Jargeroy)
+   Assigned total: 623, Local: 9, Outside: 614, Outside fraction: 98.6%
+ - Jargeroy Hunter's Lodge (City: Jargeroy)
+   Assigned total: 3997, Local: 30, Outside: 3967, Outside fraction: 99.2%
+ - Jargeroy Artisan Circle (City: Jargeroy)
+   Assigned total: 1068, Local: 7, Outside: 1061, Outside fraction: 99.3%
+ - Craftsmen of Engar (City: Engar)
+   Assigned total: 1302, Local: 31, Outside: 1271, Outside fraction: 97.6%
+ - Circle of Engar Gatherers (City: Engar)
+   Assigned total: 1473, Local: 42, Outside: 1431, Outside fraction: 97.1%
+ - Spirit Council of Engar (City: Engar)
+   Assigned total: 5227, Local: 140, Outside: 5087, Outside fraction: 97.3%
+ - Protectors of Engar (City: Engar)
+   Assigned total: 1270, Local: 30, Outside: 1240, Outside fraction: 97.6%
+ - Engar Shamanic Circle (City: Engar)
+   Assigned total: 4255, Local: 109, Outside: 4146, Outside fraction: 97.4%
+ - Traditional Crafters of Bifjorda (City: Bifjorda)
+   Assigned total: 262, Local: 1, Outside: 261, Outside fraction: 99.6%
+ - Bifjorda Ancestry Guardians (City: Bifjorda)
+   Assigned total: 590, Local: 4, Outside: 586, Outside fraction: 99.3%
+ - Gatherers of Bifjorda (City: Bifjorda)
+   Assigned total: 138, Local: 1, Outside: 137, Outside fraction: 99.3%
+ - Bifjorda Hunter's Lodge (City: Bifjorda)
+   Assigned total: 162, Local: 1, Outside: 161, Outside fraction: 99.4%
+ - Mystic Order of Bifjorda (City: Bifjorda)
+   Assigned total: 569, Local: 0, Outside: 569, Outside fraction: 100.0%
+ - Kudina Noble Council (City: Kudina)
+   Assigned total: 989, Local: 2, Outside: 987, Outside fraction: 99.8%
+ - Knights of Kudina (City: Kudina)
+   Assigned total: 303, Local: 2, Outside: 301, Outside fraction: 99.3%
+ - Kudina Artisans Guild (City: Kudina)
+   Assigned total: 73, Local: 0, Outside: 73, Outside fraction: 100.0%
+ - Kudina Alchemical Society (City: Kudina)
+   Assigned total: 613, Local: 1, Outside: 612, Outside fraction: 99.8%
+ - Thieves of Kudina (City: Kudina)
+   Assigned total: 271, Local: 2, Outside: 269, Outside fraction: 99.3%
+ - Holy Order of Asuyan (City: Asuyan)
+   Assigned total: 671, Local: 2, Outside: 669, Outside fraction: 99.7%
+ - Knights of Asuyan (City: Asuyan)
+   Assigned total: 771, Local: 4, Outside: 767, Outside fraction: 99.5%
+ - Asuyan Alchemical Society (City: Asuyan)
+   Assigned total: 291, Local: 1, Outside: 290, Outside fraction: 99.7%
+ - Guardians of Asuyan (City: Asuyan)
+   Assigned total: 398, Local: 0, Outside: 398, Outside fraction: 100.0%
+ - High Houses of Asuyan (City: Asuyan)
+   Assigned total: 781, Local: 5, Outside: 776, Outside fraction: 99.4%
+ - Guild of DÃ»r-Tu Merchants (City: DÃ»r-Tu)
+   Assigned total: 1005, Local: 15, Outside: 990, Outside fraction: 98.5%
+ - DÃ»r-Tu Builder's Guild (City: DÃ»r-Tu)
+   Assigned total: 2092, Local: 48, Outside: 2044, Outside fraction: 97.7%
+ - Alchemists of DÃ»r-Tu (City: DÃ»r-Tu)
+   Assigned total: 2072, Local: 33, Outside: 2039, Outside fraction: 98.4%
+ - Sacred Order of DÃ»r-Tu (City: DÃ»r-Tu)
+   Assigned total: 4380, Local: 79, Outside: 4301, Outside fraction: 98.2%
+ - Knights of DÃ»r-Tu (City: DÃ»r-Tu)
+   Assigned total: 3625, Local: 65, Outside: 3560, Outside fraction: 98.2%
+ - Watchmen of Borgloy (City: Borgloy)
+   Assigned total: 141, Local: 0, Outside: 141, Outside fraction: 100.0%
+ - Holy Order of Borgloy (City: Borgloy)
+   Assigned total: 260, Local: 2, Outside: 258, Outside fraction: 99.2%
+ - Thieves of Borgloy (City: Borgloy)
+   Assigned total: 867, Local: 4, Outside: 863, Outside fraction: 99.5%
+ - Guild of Borgloy Crafters (City: Borgloy)
+   Assigned total: 933, Local: 4, Outside: 929, Outside fraction: 99.6%
+ - Guild of Borgloy Merchants (City: Borgloy)
+   Assigned total: 59, Local: 0, Outside: 59, Outside fraction: 100.0%
+ - Traditional Crafters of Zidesun (City: Zidesun)
+   Assigned total: 246, Local: 1, Outside: 245, Outside fraction: 99.6%
+ - Warriors of Zidesun (City: Zidesun)
+   Assigned total: 498, Local: 1, Outside: 497, Outside fraction: 99.8%
+ - Zidesun Ancestry Guardians (City: Zidesun)
+   Assigned total: 125, Local: 1, Outside: 124, Outside fraction: 99.2%
+ - Zidesun Shamanic Circle (City: Zidesun)
+   Assigned total: 495, Local: 0, Outside: 495, Outside fraction: 100.0%
+ - Spirit Council of Zidesun (City: Zidesun)
+   Assigned total: 280, Local: 0, Outside: 280, Outside fraction: 100.0%
+ - Scholars of Alos (City: Alos)
+   Assigned total: 809, Local: 1, Outside: 808, Outside fraction: 99.9%
+ - Commerce Guild of Alos (City: Alos)
+   Assigned total: 396, Local: 5, Outside: 391, Outside fraction: 98.7%
+ - Alos Commerce Chamber (City: Alos)
+   Assigned total: 918, Local: 2, Outside: 916, Outside fraction: 99.8%
+ - Trade Council of Alos (City: Alos)
+   Assigned total: 362, Local: 0, Outside: 362, Outside fraction: 100.0%
+ - Workers Union of Alos (City: Alos)
+   Assigned total: 964, Local: 3, Outside: 961, Outside fraction: 99.7%
+ - Cultural Society of Pigna (City: Pigna)
+   Assigned total: 131, Local: 1, Outside: 130, Outside fraction: 99.2%
+ - Pigna Commercial Council (City: Pigna)
+   Assigned total: 1159, Local: 6, Outside: 1153, Outside fraction: 99.5%
+ - Technical Guild of Pigna (City: Pigna)
+   Assigned total: 62, Local: 0, Outside: 62, Outside fraction: 100.0%
+ - Pigna Academy (City: Pigna)
+   Assigned total: 1119, Local: 4, Outside: 1115, Outside fraction: 99.6%
+ - United Workers of Pigna (City: Pigna)
+   Assigned total: 605, Local: 0, Outside: 605, Outside fraction: 100.0%
+ - Chamber of Commerce of Pornoli (City: Pornoli)
+   Assigned total: 3384, Local: 39, Outside: 3345, Outside fraction: 98.8%
+ - Industrial Union of Pornoli (City: Pornoli)
+   Assigned total: 1585, Local: 10, Outside: 1575, Outside fraction: 99.4%
+ - United Trades of Pornoli (City: Pornoli)
+   Assigned total: 241, Local: 3, Outside: 238, Outside fraction: 98.8%
+ - Education Society of Pornoli (City: Pornoli)
+   Assigned total: 455, Local: 1, Outside: 454, Outside fraction: 99.8%
+ - Pornoli Commerce Chamber (City: Pornoli)
+   Assigned total: 917, Local: 11, Outside: 906, Outside fraction: 98.8%
+ - Binh Ninh Academy of Sciences (City: Binh Ninh)
+   Assigned total: 2187, Local: 0, Outside: 2187, Outside fraction: 100.0%
+ - Binh Ninh Commercial Council (City: Binh Ninh)
+   Assigned total: 166, Local: 0, Outside: 166, Outside fraction: 100.0%
+ - United Trades of Binh Ninh (City: Binh Ninh)
+   Assigned total: 1336, Local: 0, Outside: 1336, Outside fraction: 100.0%
+ - Engineers of Binh Ninh (City: Binh Ninh)
+   Assigned total: 666, Local: 0, Outside: 666, Outside fraction: 100.0%
+ - Workers Coalition of Binh Ninh (City: Binh Ninh)
+   Assigned total: 598, Local: 0, Outside: 598, Outside fraction: 100.0%
+ - Cultural Circle of Shaxing (City: Shaxing)
+   Assigned total: 1396, Local: 12, Outside: 1384, Outside fraction: 99.1%
+ - Technical Guild of Shaxing (City: Shaxing)
+   Assigned total: 2947, Local: 28, Outside: 2919, Outside fraction: 99.0%
+ - Trade Union of Shaxing (City: Shaxing)
+   Assigned total: 5009, Local: 33, Outside: 4976, Outside fraction: 99.3%
+ - Workers Union of Shaxing (City: Shaxing)
+   Assigned total: 580, Local: 7, Outside: 573, Outside fraction: 98.8%
+ - Education Society of Shaxing (City: Shaxing)
+   Assigned total: 1291, Local: 7, Outside: 1284, Outside fraction: 99.5%
+ - Alchemists of Fanha (City: Fanha)
+   Assigned total: 361, Local: 1, Outside: 360, Outside fraction: 99.7%
+ - Sacred Order of Fanha (City: Fanha)
+   Assigned total: 207, Local: 0, Outside: 207, Outside fraction: 100.0%
+ - Fanha Artisans Guild (City: Fanha)
+   Assigned total: 425, Local: 1, Outside: 424, Outside fraction: 99.8%
+ - Guild of Fanha Merchants (City: Fanha)
+   Assigned total: 417, Local: 3, Outside: 414, Outside fraction: 99.3%
+ - Noble House of Fanha (City: Fanha)
+   Assigned total: 455, Local: 1, Outside: 454, Outside fraction: 99.8%
+ - Hajsala Guardians (City: Hajsala)
+   Assigned total: 75, Local: 0, Outside: 75, Outside fraction: 100.0%
+ - Circle of Hajsala Gatherers (City: Hajsala)
+   Assigned total: 329, Local: 0, Outside: 329, Outside fraction: 100.0%
+ - Hajsala Medicine Circle (City: Hajsala)
+   Assigned total: 80, Local: 1, Outside: 79, Outside fraction: 98.8%
+ - Elder Assembly of Hajsala (City: Hajsala)
+   Assigned total: 675, Local: 1, Outside: 674, Outside fraction: 99.9%
+ - Wild Hunters of Hajsala (City: Hajsala)
+   Assigned total: 36, Local: 0, Outside: 36, Outside fraction: 100.0%
+ - Guild of Mical Merchants (City: Mical)
+   Assigned total: 884, Local: 3, Outside: 881, Outside fraction: 99.7%
+ - Craftsmen Guild of Mical (City: Mical)
+   Assigned total: 569, Local: 3, Outside: 566, Outside fraction: 99.5%
+ - Noble House of Mical (City: Mical)
+   Assigned total: 1214, Local: 4, Outside: 1210, Outside fraction: 99.7%
+ - Merchants of Mical (City: Mical)
+   Assigned total: 3864, Local: 11, Outside: 3853, Outside fraction: 99.7%
+ - Holy Order of Mical (City: Mical)
+   Assigned total: 1164, Local: 7, Outside: 1157, Outside fraction: 99.4%
+ - Guild of Rambedamkur Crafters (City: Rambedamkur)
+   Assigned total: 123, Local: 0, Outside: 123, Outside fraction: 100.0%
+ - Rambedamkur Noble Council (City: Rambedamkur)
+   Assigned total: 984, Local: 3, Outside: 981, Outside fraction: 99.7%
+ - Rambedamkur Commerce League (City: Rambedamkur)
+   Assigned total: 869, Local: 4, Outside: 865, Outside fraction: 99.5%
+ - Guild of Rambedamkur Masons (City: Rambedamkur)
+   Assigned total: 194, Local: 1, Outside: 193, Outside fraction: 99.5%
+ - Society of Rambedamkur Alchemists (City: Rambedamkur)
+   Assigned total: 923, Local: 3, Outside: 920, Outside fraction: 99.7%
+ - Mintenomarci Arts Club (City: Mintenomarci)
+   Assigned total: 319, Local: 1, Outside: 318, Outside fraction: 99.7%
+ - Business League of Mintenomarci (City: Mintenomarci)
+   Assigned total: 120, Local: 0, Outside: 120, Outside fraction: 100.0%
+ - Trade Union of Mintenomarci (City: Mintenomarci)
+   Assigned total: 589, Local: 4, Outside: 585, Outside fraction: 99.3%
+ - Mintenomarci Trade Association (City: Mintenomarci)
+   Assigned total: 441, Local: 1, Outside: 440, Outside fraction: 99.8%
+ - United Workers of Mintenomarci (City: Mintenomarci)
+   Assigned total: 137, Local: 0, Outside: 137, Outside fraction: 100.0%
+ - Tribal Guard of Kushimaki (City: Kushimaki)
+   Assigned total: 499, Local: 1, Outside: 498, Outside fraction: 99.8%
+ - Kushimaki Artisan Circle (City: Kushimaki)
+   Assigned total: 278, Local: 0, Outside: 278, Outside fraction: 100.0%
+ - Wild Hunters of Kushimaki (City: Kushimaki)
+   Assigned total: 1100, Local: 2, Outside: 1098, Outside fraction: 99.8%
+ - Kushimaki War Band (City: Kushimaki)
+   Assigned total: 242, Local: 0, Outside: 242, Outside fraction: 100.0%
+ - Spirit Council of Kushimaki (City: Kushimaki)
+   Assigned total: 668, Local: 3, Outside: 665, Outside fraction: 99.6%
+ - Business League of Mevus (City: Mevus)
+   Assigned total: 55, Local: 0, Outside: 55, Outside fraction: 100.0%
+ - Mevus Academy (City: Mevus)
+   Assigned total: 244, Local: 0, Outside: 244, Outside fraction: 100.0%
+ - Mevus Labor Union (City: Mevus)
+   Assigned total: 114, Local: 1, Outside: 113, Outside fraction: 99.1%
+ - Mevus Trade Association (City: Mevus)
+   Assigned total: 208, Local: 2, Outside: 206, Outside fraction: 99.0%
+ - Trade Council of Mevus (City: Mevus)
+   Assigned total: 25, Local: 0, Outside: 25, Outside fraction: 100.0%
+ - Guild of Likzib Crafters (City: Likzib)
+   Assigned total: 308, Local: 0, Outside: 308, Outside fraction: 100.0%
+ - Holy Order of Likzib (City: Likzib)
+   Assigned total: 920, Local: 1, Outside: 919, Outside fraction: 99.9%
+ - Thieves of Likzib (City: Likzib)
+   Assigned total: 151, Local: 0, Outside: 151, Outside fraction: 100.0%
+ - Merchant Guild of Likzib (City: Likzib)
+   Assigned total: 547, Local: 2, Outside: 545, Outside fraction: 99.6%
+ - Likzib Noble Council (City: Likzib)
+   Assigned total: 160, Local: 0, Outside: 160, Outside fraction: 100.0%
+ - Kushk Guild of Trades (City: Kushk)
+   Assigned total: 161, Local: 1, Outside: 160, Outside fraction: 99.4%
+ - Merchants League of Kushk (City: Kushk)
+   Assigned total: 244, Local: 0, Outside: 244, Outside fraction: 100.0%
+ - Kushk Factory Union (City: Kushk)
+   Assigned total: 308, Local: 1, Outside: 307, Outside fraction: 99.7%
+ - Scholars of Kushk (City: Kushk)
+   Assigned total: 631, Local: 5, Outside: 626, Outside fraction: 99.2%
+ - Trade Council of Kushk (City: Kushk)
+   Assigned total: 332, Local: 1, Outside: 331, Outside fraction: 99.7%
+ - Tribal Guard of Tisvarmend (City: Tisvarmend)
+   Assigned total: 114, Local: 0, Outside: 114, Outside fraction: 100.0%
+ - Tisvarmend Shamanic Circle (City: Tisvarmend)
+   Assigned total: 250, Local: 0, Outside: 250, Outside fraction: 100.0%
+ - Tisvarmend Ancestry Guardians (City: Tisvarmend)
+   Assigned total: 112, Local: 0, Outside: 112, Outside fraction: 100.0%
+ - Tisvarmend War Band (City: Tisvarmend)
+   Assigned total: 341, Local: 1, Outside: 340, Outside fraction: 99.7%
+ - Tisvarmend Elder Council (City: Tisvarmend)
+   Assigned total: 114, Local: 0, Outside: 114, Outside fraction: 100.0%
+ - Learned Society of Murmium (City: Murmium)
+   Assigned total: 428, Local: 2, Outside: 426, Outside fraction: 99.5%
+ - Murmium Engineering Society (City: Murmium)
+   Assigned total: 52, Local: 0, Outside: 52, Outside fraction: 100.0%
+ - Merchant Association of Murmium (City: Murmium)
+   Assigned total: 462, Local: 1, Outside: 461, Outside fraction: 99.8%
+ - Murmium Guild of Trades (City: Murmium)
+   Assigned total: 114, Local: 0, Outside: 114, Outside fraction: 100.0%
+ - Cultural Society of Murmium (City: Murmium)
+   Assigned total: 112, Local: 0, Outside: 112, Outside fraction: 100.0%
+ - Healers of Nyirfalmasle (City: Nyirfalmasle)
+   Assigned total: 1048, Local: 4, Outside: 1044, Outside fraction: 99.6%
+ - Mystic Council of Nyirfalmasle (City: Nyirfalmasle)
+   Assigned total: 610, Local: 1, Outside: 609, Outside fraction: 99.8%
+ - Nyirfalmasle Shamanic Circle (City: Nyirfalmasle)
+   Assigned total: 333, Local: 1, Outside: 332, Outside fraction: 99.7%
+ - Wild Hunters of Nyirfalmasle (City: Nyirfalmasle)
+   Assigned total: 608, Local: 2, Outside: 606, Outside fraction: 99.7%
+ - Tribal Guard of Nyirfalmasle (City: Nyirfalmasle)
+   Assigned total: 292, Local: 0, Outside: 292, Outside fraction: 100.0%
+ - Tribal Warriors of Luquti (City: Luquti)
+   Assigned total: 289, Local: 2, Outside: 287, Outside fraction: 99.3%
+ - Mystic Order of Luquti (City: Luquti)
+   Assigned total: 410, Local: 1, Outside: 409, Outside fraction: 99.8%
+ - Wild Hunters of Luquti (City: Luquti)
+   Assigned total: 1117, Local: 7, Outside: 1110, Outside fraction: 99.4%
+ - Luquti Guardians (City: Luquti)
+   Assigned total: 1872, Local: 6, Outside: 1866, Outside fraction: 99.7%
+ - Wise Ones of Luquti (City: Luquti)
+   Assigned total: 452, Local: 3, Outside: 449, Outside fraction: 99.3%
+ - Thieves of Aiya (City: Aiya)
+   Assigned total: 71, Local: 0, Outside: 71, Outside fraction: 100.0%
+ - Merchant Guild of Aiya (City: Aiya)
+   Assigned total: 1093, Local: 1, Outside: 1092, Outside fraction: 99.9%
+ - Society of Aiya Alchemists (City: Aiya)
+   Assigned total: 301, Local: 0, Outside: 301, Outside fraction: 100.0%
+ - Aiya Commerce League (City: Aiya)
+   Assigned total: 123, Local: 0, Outside: 123, Outside fraction: 100.0%
+ - Aiya Artisans Guild (City: Aiya)
+   Assigned total: 272, Local: 0, Outside: 272, Outside fraction: 100.0%
+ - Learned Society of Chingsan (City: Chingsan)
+   Assigned total: 1988, Local: 67, Outside: 1921, Outside fraction: 96.6%
+ - Engineers of Chingsan (City: Chingsan)
+   Assigned total: 1839, Local: 56, Outside: 1783, Outside fraction: 97.0%
+ - United Trades of Chingsan (City: Chingsan)
+   Assigned total: 1596, Local: 45, Outside: 1551, Outside fraction: 97.2%
+ - Chingsan Labor Union (City: Chingsan)
+   Assigned total: 8144, Local: 2527, Outside: 5617, Outside fraction: 69.0%
+ - Chamber of Commerce of Doros (City: Doros)
+   Assigned total: 1628, Local: 9, Outside: 1619, Outside fraction: 99.4%
+ - Workers Coalition of Doros (City: Doros)
+   Assigned total: 509, Local: 0, Outside: 509, Outside fraction: 100.0%
+ - Technical Guild of Doros (City: Doros)
+   Assigned total: 856, Local: 3, Outside: 853, Outside fraction: 99.6%
+ - Doros Guild of Trades (City: Doros)
+   Assigned total: 491, Local: 2, Outside: 489, Outside fraction: 99.6%
+ - Business League of Doros (City: Doros)
+   Assigned total: 3454, Local: 12, Outside: 3442, Outside fraction: 99.7%
+ - Watchmen of Regoes (City: Regoes)
+   Assigned total: 225, Local: 0, Outside: 225, Outside fraction: 100.0%
+ - Guild of Regoes Crafters (City: Regoes)
+   Assigned total: 504, Local: 0, Outside: 504, Outside fraction: 100.0%
+ - Regoes Alchemical Society (City: Regoes)
+   Assigned total: 154, Local: 0, Outside: 154, Outside fraction: 100.0%
+ - Masons of Regoes (City: Regoes)
+   Assigned total: 511, Local: 0, Outside: 511, Outside fraction: 100.0%
+ - Regoes Trading Guild (City: Regoes)
+   Assigned total: 444, Local: 0, Outside: 444, Outside fraction: 100.0%
+ - Ergoigoibar Factory Union (City: Ergoigoibar)
+   Assigned total: 22, Local: 0, Outside: 22, Outside fraction: 100.0%
+ - Ergoigoibar Academy of Sciences (City: Ergoigoibar)
+   Assigned total: 57, Local: 0, Outside: 57, Outside fraction: 100.0%
+ - United Workers of Ergoigoibar (City: Ergoigoibar)
+   Assigned total: 245, Local: 0, Outside: 245, Outside fraction: 100.0%
+ - Trade Union of Ergoigoibar (City: Ergoigoibar)
+   Assigned total: 360, Local: 0, Outside: 360, Outside fraction: 100.0%
+ - Ergoigoibar Commerce Chamber (City: Ergoigoibar)
+   Assigned total: 26, Local: 0, Outside: 26, Outside fraction: 100.0%
+ - Keepers of Bazujduzeszeg Traditions (City: Bazujduzeszeg)
+   Assigned total: 51, Local: 0, Outside: 51, Outside fraction: 100.0%
+ - Gatherers of Bazujduzeszeg (City: Bazujduzeszeg)
+   Assigned total: 349, Local: 0, Outside: 349, Outside fraction: 100.0%
+ - Wild Hunters of Bazujduzeszeg (City: Bazujduzeszeg)
+   Assigned total: 388, Local: 0, Outside: 388, Outside fraction: 100.0%
+ - Mystic Council of Bazujduzeszeg (City: Bazujduzeszeg)
+   Assigned total: 22, Local: 0, Outside: 22, Outside fraction: 100.0%
+ - Sacred Healers of Bazujduzeszeg (City: Bazujduzeszeg)
+   Assigned total: 105, Local: 0, Outside: 105, Outside fraction: 100.0%
+ - Elder Assembly of Szargony (City: Szargony)
+   Assigned total: 55, Local: 0, Outside: 55, Outside fraction: 100.0%
+ - Szargony Spirit Keepers (City: Szargony)
+   Assigned total: 48, Local: 0, Outside: 48, Outside fraction: 100.0%
+ - Gatherers of Szargony (City: Szargony)
+   Assigned total: 360, Local: 2, Outside: 358, Outside fraction: 99.4%
+ - Szargony Hunter's Lodge (City: Szargony)
+   Assigned total: 94, Local: 0, Outside: 94, Outside fraction: 100.0%
+ - Protectors of Szargony (City: Szargony)
+   Assigned total: 38, Local: 0, Outside: 38, Outside fraction: 100.0%
+ - Gyt No Noble Council (City: Gyt No)
+   Assigned total: 564, Local: 0, Outside: 564, Outside fraction: 100.0%
+ - Guild of Gyt No Crafters (City: Gyt No)
+   Assigned total: 1019, Local: 0, Outside: 1019, Outside fraction: 100.0%
+ - Alchemists of Gyt No (City: Gyt No)
+   Assigned total: 699, Local: 0, Outside: 699, Outside fraction: 100.0%
+ - Gyt No Commerce League (City: Gyt No)
+   Assigned total: 3777, Local: 0, Outside: 3777, Outside fraction: 100.0%
+ - Thieves of Gyt No (City: Gyt No)
+   Assigned total: 4091, Local: 0, Outside: 4091, Outside fraction: 100.0%
+ - Education Society of Bellikavima (City: Bellikavima)
+   Assigned total: 56, Local: 0, Outside: 56, Outside fraction: 100.0%
+ - Learned Society of Bellikavima (City: Bellikavima)
+   Assigned total: 62, Local: 0, Outside: 62, Outside fraction: 100.0%
+ - Bellikavima Labor Union (City: Bellikavima)
+   Assigned total: 27, Local: 0, Outside: 27, Outside fraction: 100.0%
+ - Trade Council of Bellikavima (City: Bellikavima)
+   Assigned total: 50, Local: 0, Outside: 50, Outside fraction: 100.0%
+ - United Trades of Bellikavima (City: Bellikavima)
+   Assigned total: 117, Local: 0, Outside: 117, Outside fraction: 100.0%
+ - Hasamut Engineering Society (City: Hasamut)
+   Assigned total: 897, Local: 6, Outside: 891, Outside fraction: 99.3%
+ - Trade Council of Hasamut (City: Hasamut)
+   Assigned total: 3504, Local: 25, Outside: 3479, Outside fraction: 99.3%
+ - Workers Union of Hasamut (City: Hasamut)
+   Assigned total: 1152, Local: 8, Outside: 1144, Outside fraction: 99.3%
+ - Workers Coalition of Hasamut (City: Hasamut)
+   Assigned total: 1236, Local: 6, Outside: 1230, Outside fraction: 99.5%
+ - Cultural Circle of Hasamut (City: Hasamut)
+   Assigned total: 506, Local: 3, Outside: 503, Outside fraction: 99.4%
+ - Valvi Alchemical Society (City: Valvi)
+   Assigned total: 297, Local: 0, Outside: 297, Outside fraction: 100.0%
+ - Valvi Religious Council (City: Valvi)
+   Assigned total: 81, Local: 0, Outside: 81, Outside fraction: 100.0%
+ - Order of Valvi Knights (City: Valvi)
+   Assigned total: 334, Local: 1, Outside: 333, Outside fraction: 99.7%
+ - High Houses of Valvi (City: Valvi)
+   Assigned total: 250, Local: 0, Outside: 250, Outside fraction: 100.0%
+ - Merchants of Valvi (City: Valvi)
+   Assigned total: 124, Local: 0, Outside: 124, Outside fraction: 100.0%
+ - Technical Guild of Jinzhou (City: Jinzhou)
+   Assigned total: 1611, Local: 6, Outside: 1605, Outside fraction: 99.6%
+ - Workers Coalition of Jinzhou (City: Jinzhou)
+   Assigned total: 399, Local: 0, Outside: 399, Outside fraction: 100.0%
+ - Jinzhou Academy of Sciences (City: Jinzhou)
+   Assigned total: 1696, Local: 3, Outside: 1693, Outside fraction: 99.8%
+ - Jinzhou Commerce Chamber (City: Jinzhou)
+   Assigned total: 1311, Local: 3, Outside: 1308, Outside fraction: 99.8%
+ - Chamber of Commerce of Jinzhou (City: Jinzhou)
+   Assigned total: 2944, Local: 11, Outside: 2933, Outside fraction: 99.6%
+ - Workers Union of Pogliaferte (City: Pogliaferte)
+   Assigned total: 1955, Local: 4, Outside: 1951, Outside fraction: 99.8%
+ - United Trades of Pogliaferte (City: Pogliaferte)
+   Assigned total: 1789, Local: 4, Outside: 1785, Outside fraction: 99.8%
+ - Scientific Society of Pogliaferte (City: Pogliaferte)
+   Assigned total: 207, Local: 1, Outside: 206, Outside fraction: 99.5%
+ - Pogliaferte Academy (City: Pogliaferte)
+   Assigned total: 114, Local: 0, Outside: 114, Outside fraction: 100.0%
+ - Pogliaferte Labor Union (City: Pogliaferte)
+   Assigned total: 221, Local: 2, Outside: 219, Outside fraction: 99.1%
+ - Hunters of Korestad (City: Korestad)
+   Assigned total: 707, Local: 3, Outside: 704, Outside fraction: 99.6%
+ - Ancestral Keepers of Korestad (City: Korestad)
+   Assigned total: 149, Local: 1, Outside: 148, Outside fraction: 99.3%
+ - Tribal Warriors of Korestad (City: Korestad)
+   Assigned total: 608, Local: 5, Outside: 603, Outside fraction: 99.2%
+ - Korestad Guardians (City: Korestad)
+   Assigned total: 2857, Local: 12, Outside: 2845, Outside fraction: 99.6%
+ - Shamans of Korestad (City: Korestad)
+   Assigned total: 1601, Local: 10, Outside: 1591, Outside fraction: 99.4%
+ - Eliusila Engineering Society (City: Eliusila)
+   Assigned total: 122, Local: 1, Outside: 121, Outside fraction: 99.2%
+ - Eliusila Labor Union (City: Eliusila)
+   Assigned total: 237, Local: 0, Outside: 237, Outside fraction: 100.0%
+ - Workers Union of Eliusila (City: Eliusila)
+   Assigned total: 48, Local: 0, Outside: 48, Outside fraction: 100.0%
+ - Education Society of Eliusila (City: Eliusila)
+   Assigned total: 263, Local: 0, Outside: 263, Outside fraction: 100.0%
+ - Eliusila Guild of Trades (City: Eliusila)
+   Assigned total: 124, Local: 0, Outside: 124, Outside fraction: 100.0%
+ - Chamber of Commerce of Shfanaan (City: Shfanaan)
+   Assigned total: 803, Local: 4, Outside: 799, Outside fraction: 99.5%
+ - Shfanaan Commerce Chamber (City: Shfanaan)
+   Assigned total: 1472, Local: 13, Outside: 1459, Outside fraction: 99.1%
+ - United Workers of Shfanaan (City: Shfanaan)
+   Assigned total: 2789, Local: 29, Outside: 2760, Outside fraction: 99.0%
+ - Shfanaan Guild of Trades (City: Shfanaan)
+   Assigned total: 1441, Local: 17, Outside: 1424, Outside fraction: 98.8%
+ - Shfanaan Arts Club (City: Shfanaan)
+   Assigned total: 396, Local: 4, Outside: 392, Outside fraction: 99.0%
+ - Kyenga City Watch (City: Kyenga)
+   Assigned total: 708, Local: 4, Outside: 704, Outside fraction: 99.4%
+ - Kyenga Knightly Order (City: Kyenga)
+   Assigned total: 1296, Local: 4, Outside: 1292, Outside fraction: 99.7%
+ - Alchemists of Kyenga (City: Kyenga)
+   Assigned total: 1338, Local: 8, Outside: 1330, Outside fraction: 99.4%
+ - Thieves of Kyenga (City: Kyenga)
+   Assigned total: 639, Local: 1, Outside: 638, Outside fraction: 99.8%
+ - Noble House of Kyenga (City: Kyenga)
+   Assigned total: 2365, Local: 7, Outside: 2358, Outside fraction: 99.7%
+ - Sunker Religious Council (City: Sunker)
+   Assigned total: 656, Local: 4, Outside: 652, Outside fraction: 99.4%
+ - Sunker Alchemical Society (City: Sunker)
+   Assigned total: 2687, Local: 23, Outside: 2664, Outside fraction: 99.1%
+ - Sunker City Watch (City: Sunker)
+   Assigned total: 1027, Local: 15, Outside: 1012, Outside fraction: 98.5%
+ - Noble House of Sunker (City: Sunker)
+   Assigned total: 1420, Local: 16, Outside: 1404, Outside fraction: 98.9%
+ - Knights of Sunker (City: Sunker)
+   Assigned total: 2161, Local: 23, Outside: 2138, Outside fraction: 98.9%
+ - Society of Vialiranave Alchemists (City: Vialiranave)
+   Assigned total: 425, Local: 3, Outside: 422, Outside fraction: 99.3%
+ - Vialiranave Noble Council (City: Vialiranave)
+   Assigned total: 205, Local: 2, Outside: 203, Outside fraction: 99.0%
+ - Masons of Vialiranave (City: Vialiranave)
+   Assigned total: 950, Local: 7, Outside: 943, Outside fraction: 99.3%
+ - Guild of Vialiranave Merchants (City: Vialiranave)
+   Assigned total: 3809, Local: 23, Outside: 3786, Outside fraction: 99.4%
+ - Vialiranave Artisans Guild (City: Vialiranave)
+   Assigned total: 1054, Local: 8, Outside: 1046, Outside fraction: 99.2%
+ - Mernah City Watch (City: Mernah)
+   Assigned total: 48, Local: 0, Outside: 48, Outside fraction: 100.0%
+ - Masons of Mernah (City: Mernah)
+   Assigned total: 179, Local: 0, Outside: 179, Outside fraction: 100.0%
+ - Mernah Noble Council (City: Mernah)
+   Assigned total: 160, Local: 0, Outside: 160, Outside fraction: 100.0%
+ - Mernah Commerce League (City: Mernah)
+   Assigned total: 160, Local: 0, Outside: 160, Outside fraction: 100.0%
+ - Craftsmen Guild of Mernah (City: Mernah)
+   Assigned total: 101, Local: 0, Outside: 101, Outside fraction: 100.0%
+ - Technical Guild of Jining (City: Jining)
+   Assigned total: 163, Local: 1, Outside: 162, Outside fraction: 99.4%
+ - Workers Union of Jining (City: Jining)
+   Assigned total: 81, Local: 0, Outside: 81, Outside fraction: 100.0%
+ - Merchants League of Jining (City: Jining)
+   Assigned total: 84, Local: 0, Outside: 84, Outside fraction: 100.0%
+ - Jining Guild of Trades (City: Jining)
+   Assigned total: 166, Local: 1, Outside: 165, Outside fraction: 99.4%
+ - Jining Academy (City: Jining)
+   Assigned total: 221, Local: 0, Outside: 221, Outside fraction: 100.0%
+ - Warriors of Kikoupaupo (City: Kikoupaupo)
+   Assigned total: 477, Local: 1, Outside: 476, Outside fraction: 99.8%
+ - Kikoupaupo Artisan Circle (City: Kikoupaupo)
+   Assigned total: 26, Local: 0, Outside: 26, Outside fraction: 100.0%
+ - Kikoupaupo Shamanic Circle (City: Kikoupaupo)
+   Assigned total: 52, Local: 0, Outside: 52, Outside fraction: 100.0%
+ - Hunters of Kikoupaupo (City: Kikoupaupo)
+   Assigned total: 52, Local: 0, Outside: 52, Outside fraction: 100.0%
+ - Elder Assembly of Kikoupaupo (City: Kikoupaupo)
+   Assigned total: 135, Local: 0, Outside: 135, Outside fraction: 100.0%
+ - Watchmen of Mbale (City: Mbale)
+   Assigned total: 230, Local: 1, Outside: 229, Outside fraction: 99.6%
+ - Mbale Religious Council (City: Mbale)
+   Assigned total: 22, Local: 0, Outside: 22, Outside fraction: 100.0%
+ - Order of Mbale Knights (City: Mbale)
+   Assigned total: 202, Local: 0, Outside: 202, Outside fraction: 100.0%
+ - Hidden Guild of Mbale (City: Mbale)
+   Assigned total: 88, Local: 0, Outside: 88, Outside fraction: 100.0%
+ - Society of Mbale Alchemists (City: Mbale)
+   Assigned total: 203, Local: 0, Outside: 203, Outside fraction: 100.0%
+ - Reriro Trading Company (City: Reriro)
+   Assigned total: 639, Local: 3, Outside: 636, Outside fraction: 99.5%
+ - Noble House of Reriro (City: Reriro)
+   Assigned total: 637, Local: 4, Outside: 633, Outside fraction: 99.4%
+ - Society of Reriro Alchemists (City: Reriro)
+   Assigned total: 344, Local: 5, Outside: 339, Outside fraction: 98.5%
+ - Craftsmen Guild of Reriro (City: Reriro)
+   Assigned total: 159, Local: 0, Outside: 159, Outside fraction: 100.0%
+ - Merchant Guild of Reriro (City: Reriro)
+   Assigned total: 1293, Local: 6, Outside: 1287, Outside fraction: 99.5%
+ - Kudchna Engineering Society (City: Kudchna)
+   Assigned total: 366, Local: 3, Outside: 363, Outside fraction: 99.2%
+ - Commerce Guild of Kudchna (City: Kudchna)
+   Assigned total: 386, Local: 0, Outside: 386, Outside fraction: 100.0%
+ - Learned Society of Kudchna (City: Kudchna)
+   Assigned total: 876, Local: 2, Outside: 874, Outside fraction: 99.8%
+ - United Trades of Kudchna (City: Kudchna)
+   Assigned total: 891, Local: 4, Outside: 887, Outside fraction: 99.6%
+ - Kudchna Commerce Chamber (City: Kudchna)
+   Assigned total: 639, Local: 3, Outside: 636, Outside fraction: 99.5%
+ - Technical Guild of Citadel of the Pass (City: Citadel of the Pass)
+   Assigned total: 1823, Local: 0, Outside: 1823, Outside fraction: 100.0%
+ - Citadel of the Pass Factory Union (City: Citadel of the Pass)
+   Assigned total: 375, Local: 0, Outside: 375, Outside fraction: 100.0%
+ - Cultural Society of Citadel of the Pass (City: Citadel of the Pass)
+   Assigned total: 843, Local: 0, Outside: 843, Outside fraction: 100.0%
+ - Merchants League of Citadel of the Pass (City: Citadel of the Pass)
+   Assigned total: 821, Local: 0, Outside: 821, Outside fraction: 100.0%
+ - Citadel of the Pass Academy (City: Citadel of the Pass)
+   Assigned total: 3369, Local: 0, Outside: 3369, Outside fraction: 100.0%
+ - Bancik Guardians (City: Bancik)
+   Assigned total: 352, Local: 0, Outside: 352, Outside fraction: 100.0%
+ - Elder Assembly of Bancik (City: Bancik)
+   Assigned total: 196, Local: 1, Outside: 195, Outside fraction: 99.5%
+ - Bancik Medicine Circle (City: Bancik)
+   Assigned total: 240, Local: 2, Outside: 238, Outside fraction: 99.2%
+ - Bancik Artisan Circle (City: Bancik)
+   Assigned total: 911, Local: 2, Outside: 909, Outside fraction: 99.8%
+ - Tribal Warriors of Bancik (City: Bancik)
+   Assigned total: 352, Local: 0, Outside: 352, Outside fraction: 100.0%
+ - Kuoruvaa Builder's Guild (City: Kuoruvaa)
+   Assigned total: 1272, Local: 13, Outside: 1259, Outside fraction: 99.0%
+ - Knights of Kuoruvaa (City: Kuoruvaa)
+   Assigned total: 748, Local: 6, Outside: 742, Outside fraction: 99.2%
+ - Hidden Guild of Kuoruvaa (City: Kuoruvaa)
+   Assigned total: 2500, Local: 18, Outside: 2482, Outside fraction: 99.3%
+ - Kuoruvaa Artisans Guild (City: Kuoruvaa)
+   Assigned total: 1475, Local: 8, Outside: 1467, Outside fraction: 99.5%
+ - High Houses of Kuoruvaa (City: Kuoruvaa)
+   Assigned total: 357, Local: 1, Outside: 356, Outside fraction: 99.7%
+ - Workers Coalition of Laizhou (City: Laizhou)
+   Assigned total: 146, Local: 0, Outside: 146, Outside fraction: 100.0%
+ - Engineers of Laizhou (City: Laizhou)
+   Assigned total: 62, Local: 0, Outside: 62, Outside fraction: 100.0%
+ - Business League of Laizhou (City: Laizhou)
+   Assigned total: 124, Local: 0, Outside: 124, Outside fraction: 100.0%
+ - Scholars of Laizhou (City: Laizhou)
+   Assigned total: 16, Local: 0, Outside: 16, Outside fraction: 100.0%
+ - Laizhou Trade Association (City: Laizhou)
+   Assigned total: 126, Local: 0, Outside: 126, Outside fraction: 100.0%
+ - Ottengenburg Spirit Keepers (City: Ottengenburg)
+   Assigned total: 2886, Local: 19, Outside: 2867, Outside fraction: 99.3%
+ - Ottengenburg Elder Council (City: Ottengenburg)
+   Assigned total: 381, Local: 3, Outside: 378, Outside fraction: 99.2%
+ - Ottengenburg Medicine Circle (City: Ottengenburg)
+   Assigned total: 694, Local: 3, Outside: 691, Outside fraction: 99.6%
+ - Ottengenburg Guardians (City: Ottengenburg)
+   Assigned total: 387, Local: 4, Outside: 383, Outside fraction: 99.0%
+ - Wild Hunters of Ottengenburg (City: Ottengenburg)
+   Assigned total: 377, Local: 2, Outside: 375, Outside fraction: 99.5%
+ - Fonte Trade Association (City: Fonte)
+   Assigned total: 344, Local: 1, Outside: 343, Outside fraction: 99.7%
+ - Industrial Union of Fonte (City: Fonte)
+   Assigned total: 102, Local: 1, Outside: 101, Outside fraction: 99.0%
+ - Fonte Commerce Chamber (City: Fonte)
+   Assigned total: 210, Local: 0, Outside: 210, Outside fraction: 100.0%
+ - Scientific Society of Fonte (City: Fonte)
+   Assigned total: 180, Local: 1, Outside: 179, Outside fraction: 99.4%
+ - Trade Union of Fonte (City: Fonte)
+   Assigned total: 49, Local: 0, Outside: 49, Outside fraction: 100.0%
+ - Technical Guild of Waishan (City: Waishan)
+   Assigned total: 28, Local: 0, Outside: 28, Outside fraction: 100.0%
+ - Waishan Labor Union (City: Waishan)
+   Assigned total: 27, Local: 0, Outside: 27, Outside fraction: 100.0%
+ - United Trades of Waishan (City: Waishan)
+   Assigned total: 43, Local: 0, Outside: 43, Outside fraction: 100.0%
+ - Chamber of Commerce of Waishan (City: Waishan)
+   Assigned total: 22, Local: 0, Outside: 22, Outside fraction: 100.0%
+ - Waishan Academy of Sciences (City: Waishan)
+   Assigned total: 229, Local: 0, Outside: 229, Outside fraction: 100.0%
+ - Balashee Shamanic Circle (City: Balashee)
+   Assigned total: 553, Local: 1, Outside: 552, Outside fraction: 99.8%
+ - Balashee Gathering Circle (City: Balashee)
+   Assigned total: 282, Local: 0, Outside: 282, Outside fraction: 100.0%
+ - Balashee War Band (City: Balashee)
+   Assigned total: 507, Local: 1, Outside: 506, Outside fraction: 99.8%
+ - Balashee Medicine Circle (City: Balashee)
+   Assigned total: 69, Local: 0, Outside: 69, Outside fraction: 100.0%
+ - Wise Ones of Balashee (City: Balashee)
+   Assigned total: 332, Local: 1, Outside: 331, Outside fraction: 99.7%
+ - Sacred Order of Sobriro (City: Sobriro)
+   Assigned total: 162, Local: 0, Outside: 162, Outside fraction: 100.0%
+ - Merchant Guild of Sobriro (City: Sobriro)
+   Assigned total: 552, Local: 1, Outside: 551, Outside fraction: 99.8%
+ - Sobriro City Watch (City: Sobriro)
+   Assigned total: 182, Local: 0, Outside: 182, Outside fraction: 100.0%
+ - Guild of Sobriro Crafters (City: Sobriro)
+   Assigned total: 316, Local: 1, Outside: 315, Outside fraction: 99.7%
+ - Thieves of Sobriro (City: Sobriro)
+   Assigned total: 141, Local: 0, Outside: 141, Outside fraction: 100.0%
+ - Wise Ones of Moki (City: Moki)
+   Assigned total: 42, Local: 0, Outside: 42, Outside fraction: 100.0%
+ - Spirit Council of Moki (City: Moki)
+   Assigned total: 10, Local: 0, Outside: 10, Outside fraction: 100.0%
+ - Moki Shamanic Circle (City: Moki)
+   Assigned total: 24, Local: 0, Outside: 24, Outside fraction: 100.0%
+ - Moki Medicine Circle (City: Moki)
+   Assigned total: 78, Local: 0, Outside: 78, Outside fraction: 100.0%
+ - Keepers of Moki Traditions (City: Moki)
+   Assigned total: 22, Local: 0, Outside: 22, Outside fraction: 100.0%
+ - Technical Guild of Castri (City: Castri)
+   Assigned total: 472, Local: 5, Outside: 467, Outside fraction: 98.9%
+ - Castri Academy (City: Castri)
+   Assigned total: 666, Local: 7, Outside: 659, Outside fraction: 98.9%
+ - Castri Commerce Chamber (City: Castri)
+   Assigned total: 383, Local: 4, Outside: 379, Outside fraction: 99.0%
+ - Commerce Guild of Castri (City: Castri)
+   Assigned total: 1690, Local: 12, Outside: 1678, Outside fraction: 99.3%
+ - Castri Guild of Trades (City: Castri)
+   Assigned total: 324, Local: 2, Outside: 322, Outside fraction: 99.4%
+ - Guardians of Kolli (City: Kolli)
+   Assigned total: 802, Local: 2, Outside: 800, Outside fraction: 99.8%
+ - Society of Kolli Alchemists (City: Kolli)
+   Assigned total: 1355, Local: 1, Outside: 1354, Outside fraction: 99.9%
+ - Kolli Noble Council (City: Kolli)
+   Assigned total: 72, Local: 0, Outside: 72, Outside fraction: 100.0%
+ - Kolli Artisans Guild (City: Kolli)
+   Assigned total: 373, Local: 0, Outside: 373, Outside fraction: 100.0%
+ - Kolli Trading Company (City: Kolli)
+   Assigned total: 344, Local: 2, Outside: 342, Outside fraction: 99.4%
+ - Pinkang Trade Association (City: Pinkang)
+   Assigned total: 742, Local: 2, Outside: 740, Outside fraction: 99.7%
+ - Learned Society of Pinkang (City: Pinkang)
+   Assigned total: 791, Local: 2, Outside: 789, Outside fraction: 99.7%
+ - Pinkang Commerce Chamber (City: Pinkang)
+   Assigned total: 205, Local: 0, Outside: 205, Outside fraction: 100.0%
+ - Pinkang Labor Union (City: Pinkang)
+   Assigned total: 876, Local: 1, Outside: 875, Outside fraction: 99.9%
+ - Pinkang Commercial Council (City: Pinkang)
+   Assigned total: 392, Local: 1, Outside: 391, Outside fraction: 99.7%
+ - Patrellasa Commerce Chamber (City: Patrellasa)
+   Assigned total: 616, Local: 2, Outside: 614, Outside fraction: 99.7%
+ - Scientific Society of Patrellasa (City: Patrellasa)
+   Assigned total: 791, Local: 10, Outside: 781, Outside fraction: 98.7%
+ - Scholars of Patrellasa (City: Patrellasa)
+   Assigned total: 191, Local: 0, Outside: 191, Outside fraction: 100.0%
+ - Merchant Association of Patrellasa (City: Patrellasa)
+   Assigned total: 1432, Local: 11, Outside: 1421, Outside fraction: 99.2%
+ - Trade Council of Patrellasa (City: Patrellasa)
+   Assigned total: 680, Local: 4, Outside: 676, Outside fraction: 99.4%
+ - Technical Guild of Huang (City: Huang)
+   Assigned total: 881, Local: 4, Outside: 877, Outside fraction: 99.5%
+ - Huang Factory Union (City: Huang)
+   Assigned total: 475, Local: 1, Outside: 474, Outside fraction: 99.8%
+ - United Workers of Huang (City: Huang)
+   Assigned total: 744, Local: 2, Outside: 742, Outside fraction: 99.7%
+ - Huang Commerce Chamber (City: Huang)
+   Assigned total: 705, Local: 1, Outside: 704, Outside fraction: 99.9%
+ - Cultural Circle of Huang (City: Huang)
+   Assigned total: 387, Local: 1, Outside: 386, Outside fraction: 99.7%
+ - Knights of Bulekh Orov (City: Bulekh Orov)
+   Assigned total: 37, Local: 0, Outside: 37, Outside fraction: 100.0%
+ - Guild of Bulekh Orov Masons (City: Bulekh Orov)
+   Assigned total: 68, Local: 0, Outside: 68, Outside fraction: 100.0%
+ - Society of Bulekh Orov Alchemists (City: Bulekh Orov)
+   Assigned total: 83, Local: 0, Outside: 83, Outside fraction: 100.0%
+ - Merchants of Bulekh Orov (City: Bulekh Orov)
+   Assigned total: 81, Local: 0, Outside: 81, Outside fraction: 100.0%
+ - Bulekh Orov Shadow Guild (City: Bulekh Orov)
+   Assigned total: 39, Local: 0, Outside: 39, Outside fraction: 100.0%
+ - Guild of Hamapurara Crafters (City: Hamapurara)
+   Assigned total: 543, Local: 3, Outside: 540, Outside fraction: 99.4%
+ - Hamapurara Alchemical Society (City: Hamapurara)
+   Assigned total: 333, Local: 0, Outside: 333, Outside fraction: 100.0%
+ - Guardians of Hamapurara (City: Hamapurara)
+   Assigned total: 73, Local: 0, Outside: 73, Outside fraction: 100.0%
+ - Guild of Hamapurara Masons (City: Hamapurara)
+   Assigned total: 1353, Local: 1, Outside: 1352, Outside fraction: 99.9%
+ - Sacred Order of Hamapurara (City: Hamapurara)
+   Assigned total: 786, Local: 4, Outside: 782, Outside fraction: 99.5%
+ - Alchemists of Malveiba (City: Malveiba)
+   Assigned total: 800, Local: 3, Outside: 797, Outside fraction: 99.6%
+ - Guild of Malveiba Merchants (City: Malveiba)
+   Assigned total: 201, Local: 0, Outside: 201, Outside fraction: 100.0%
+ - Merchants of Malveiba (City: Malveiba)
+   Assigned total: 249, Local: 1, Outside: 248, Outside fraction: 99.6%
+ - Malveiba Builder's Guild (City: Malveiba)
+   Assigned total: 908, Local: 0, Outside: 908, Outside fraction: 100.0%
+ - Watchmen of Malveiba (City: Malveiba)
+   Assigned total: 857, Local: 4, Outside: 853, Outside fraction: 99.5%
+ - Business League of Veren (City: Veren)
+   Assigned total: 777, Local: 3, Outside: 774, Outside fraction: 99.6%
+ - Veren Commercial Council (City: Veren)
+   Assigned total: 655, Local: 0, Outside: 655, Outside fraction: 100.0%
+ - Industrial Union of Veren (City: Veren)
+   Assigned total: 309, Local: 0, Outside: 309, Outside fraction: 100.0%
+ - Veren Engineering Society (City: Veren)
+   Assigned total: 150, Local: 1, Outside: 149, Outside fraction: 99.3%
+ - Learned Society of Veren (City: Veren)
+   Assigned total: 69, Local: 0, Outside: 69, Outside fraction: 100.0%
+ - Tribal Warriors of Tasa (City: Tasa)
+   Assigned total: 3134, Local: 26, Outside: 3108, Outside fraction: 99.2%
+ - Tasa Medicine Circle (City: Tasa)
+   Assigned total: 778, Local: 6, Outside: 772, Outside fraction: 99.2%
+ - Craftsmen of Tasa (City: Tasa)
+   Assigned total: 744, Local: 5, Outside: 739, Outside fraction: 99.3%
+ - Elder Assembly of Tasa (City: Tasa)
+   Assigned total: 3163, Local: 24, Outside: 3139, Outside fraction: 99.2%
+ - Tasa Gathering Circle (City: Tasa)
+   Assigned total: 699, Local: 7, Outside: 692, Outside fraction: 99.0%
+ - Chitna Arts Club (City: Chitna)
+   Assigned total: 136, Local: 0, Outside: 136, Outside fraction: 100.0%
+ - Scientific Society of Chitna (City: Chitna)
+   Assigned total: 111, Local: 0, Outside: 111, Outside fraction: 100.0%
+ - Trade Council of Chitna (City: Chitna)
+   Assigned total: 294, Local: 0, Outside: 294, Outside fraction: 100.0%
+ - Engineers of Chitna (City: Chitna)
+   Assigned total: 501, Local: 1, Outside: 500, Outside fraction: 99.8%
+ - Trade Union of Chitna (City: Chitna)
+   Assigned total: 235, Local: 0, Outside: 235, Outside fraction: 100.0%
+ - Healers of Tetonykut (City: Tetonykut)
+   Assigned total: 395, Local: 2, Outside: 393, Outside fraction: 99.5%
+ - Elder Assembly of Tetonykut (City: Tetonykut)
+   Assigned total: 41, Local: 0, Outside: 41, Outside fraction: 100.0%
+ - Warriors of Tetonykut (City: Tetonykut)
+   Assigned total: 200, Local: 2, Outside: 198, Outside fraction: 99.0%
+ - Ancestral Keepers of Tetonykut (City: Tetonykut)
+   Assigned total: 54, Local: 0, Outside: 54, Outside fraction: 100.0%
+ - Protectors of Tetonykut (City: Tetonykut)
+   Assigned total: 216, Local: 0, Outside: 216, Outside fraction: 100.0%
+ - Scholars of Monte (City: Monte)
+   Assigned total: 4636, Local: 45, Outside: 4591, Outside fraction: 99.0%
+ - Monte Arts Club (City: Monte)
+   Assigned total: 375, Local: 0, Outside: 375, Outside fraction: 100.0%
+ - Monte Commercial Council (City: Monte)
+   Assigned total: 2364, Local: 31, Outside: 2333, Outside fraction: 98.7%
+ - Monte Trade Association (City: Monte)
+   Assigned total: 292, Local: 0, Outside: 292, Outside fraction: 100.0%
+ - Trade Union of Monte (City: Monte)
+   Assigned total: 2363, Local: 24, Outside: 2339, Outside fraction: 99.0%
+ - Modurelius Trade Association (City: Modurelius)
+   Assigned total: 11, Local: 0, Outside: 11, Outside fraction: 100.0%
+ - Modurelius Commercial Council (City: Modurelius)
+   Assigned total: 11, Local: 0, Outside: 11, Outside fraction: 100.0%
+ - Cultural Circle of Modurelius (City: Modurelius)
+   Assigned total: 151, Local: 0, Outside: 151, Outside fraction: 100.0%
+ - Modurelius Engineering Society (City: Modurelius)
+   Assigned total: 149, Local: 0, Outside: 149, Outside fraction: 100.0%
+ - Modurelius Academy of Sciences (City: Modurelius)
+   Assigned total: 24, Local: 0, Outside: 24, Outside fraction: 100.0%
+ - United Workers of Darvangor (City: Darvangor)
+   Assigned total: 75, Local: 0, Outside: 75, Outside fraction: 100.0%
+ - Darvangor Academy (City: Darvangor)
+   Assigned total: 143, Local: 0, Outside: 143, Outside fraction: 100.0%
+ - Business League of Darvangor (City: Darvangor)
+   Assigned total: 170, Local: 0, Outside: 170, Outside fraction: 100.0%
+ - Darvangor Trade Association (City: Darvangor)
+   Assigned total: 487, Local: 2, Outside: 485, Outside fraction: 99.6%
+ - Trade Union of Darvangor (City: Darvangor)
+   Assigned total: 36, Local: 0, Outside: 36, Outside fraction: 100.0%
+ - Shamans of Cajunara (City: Cajunara)
+   Assigned total: 218, Local: 0, Outside: 218, Outside fraction: 100.0%
+ - Ancestral Keepers of Cajunara (City: Cajunara)
+   Assigned total: 189, Local: 0, Outside: 189, Outside fraction: 100.0%
+ - Wise Ones of Cajunara (City: Cajunara)
+   Assigned total: 198, Local: 2, Outside: 196, Outside fraction: 99.0%
+ - Cajunara War Band (City: Cajunara)
+   Assigned total: 22, Local: 0, Outside: 22, Outside fraction: 100.0%
+ - Cajunara Gathering Circle (City: Cajunara)
+   Assigned total: 116, Local: 1, Outside: 115, Outside fraction: 99.1%
+ - Sacred Healers of Uyaria (City: Uyaria)
+   Assigned total: 74, Local: 0, Outside: 74, Outside fraction: 100.0%
+ - Wild Hunters of Uyaria (City: Uyaria)
+   Assigned total: 272, Local: 1, Outside: 271, Outside fraction: 99.6%
+ - Mystic Council of Uyaria (City: Uyaria)
+   Assigned total: 463, Local: 1, Outside: 462, Outside fraction: 99.8%
+ - Traditional Crafters of Uyaria (City: Uyaria)
+   Assigned total: 65, Local: 0, Outside: 65, Outside fraction: 100.0%
+ - Elder Assembly of Uyaria (City: Uyaria)
+   Assigned total: 28, Local: 0, Outside: 28, Outside fraction: 100.0%
+ - Industrial Union of Euata (City: Euata)
+   Assigned total: 34, Local: 0, Outside: 34, Outside fraction: 100.0%
+ - Education Society of Euata (City: Euata)
+   Assigned total: 28, Local: 0, Outside: 28, Outside fraction: 100.0%
+ - Euata Engineering Society (City: Euata)
+   Assigned total: 104, Local: 0, Outside: 104, Outside fraction: 100.0%
+ - Euata Commercial Council (City: Euata)
+   Assigned total: 32, Local: 0, Outside: 32, Outside fraction: 100.0%
+ - Euata Labor Union (City: Euata)
+   Assigned total: 33, Local: 0, Outside: 33, Outside fraction: 100.0%
+ - High Houses of Urir (City: Urir)
+   Assigned total: 124, Local: 1, Outside: 123, Outside fraction: 99.2%
+ - Merchant Guild of Urir (City: Urir)
+   Assigned total: 447, Local: 0, Outside: 447, Outside fraction: 100.0%
+ - Alchemists of Urir (City: Urir)
+   Assigned total: 497, Local: 2, Outside: 495, Outside fraction: 99.6%
+ - Watchmen of Urir (City: Urir)
+   Assigned total: 447, Local: 2, Outside: 445, Outside fraction: 99.6%
+ - Hidden Guild of Urir (City: Urir)
+   Assigned total: 64, Local: 0, Outside: 64, Outside fraction: 100.0%
+ - Sera Academy of Sciences (City: Sera)
+   Assigned total: 1386, Local: 9, Outside: 1377, Outside fraction: 99.4%
+ - Sera Commerce Chamber (City: Sera)
+   Assigned total: 704, Local: 1, Outside: 703, Outside fraction: 99.9%
+ - Sera Labor Union (City: Sera)
+   Assigned total: 1598, Local: 1, Outside: 1597, Outside fraction: 99.9%
+ - Education Society of Sera (City: Sera)
+   Assigned total: 1512, Local: 3, Outside: 1509, Outside fraction: 99.8%
+ - Sera Commercial Council (City: Sera)
+   Assigned total: 434, Local: 0, Outside: 434, Outside fraction: 100.0%
+ - Kukar Commerce Chamber (City: Kukar)
+   Assigned total: 152, Local: 1, Outside: 151, Outside fraction: 99.3%
+ - Kukar Engineering Society (City: Kukar)
+   Assigned total: 609, Local: 0, Outside: 609, Outside fraction: 100.0%
+ - Kukar Trade Association (City: Kukar)
+   Assigned total: 593, Local: 5, Outside: 588, Outside fraction: 99.2%
+ - United Workers of Kukar (City: Kukar)
+   Assigned total: 54, Local: 0, Outside: 54, Outside fraction: 100.0%
+ - Trade Council of Kukar (City: Kukar)
+   Assigned total: 151, Local: 0, Outside: 151, Outside fraction: 100.0%
+ - Learned Society of Sa (City: Sa)
+   Assigned total: 530, Local: 0, Outside: 530, Outside fraction: 100.0%
+ - Sa Commercial Council (City: Sa)
+   Assigned total: 121, Local: 0, Outside: 121, Outside fraction: 100.0%
+ - Sa Commerce Chamber (City: Sa)
+   Assigned total: 310, Local: 1, Outside: 309, Outside fraction: 99.7%
+ - Sa Academy (City: Sa)
+   Assigned total: 306, Local: 1, Outside: 305, Outside fraction: 99.7%
+ - Merchant Association of Sa (City: Sa)
+   Assigned total: 73, Local: 0, Outside: 73, Outside fraction: 100.0%
+ - United Workers of Citadel of Utaia (City: Citadel of Utaia)
+   Assigned total: 17, Local: 0, Outside: 17, Outside fraction: 100.0%
+ - Scientific Society of Citadel of Utaia (City: Citadel of Utaia)
+   Assigned total: 31, Local: 0, Outside: 31, Outside fraction: 100.0%
+ - Technical Guild of Citadel of Utaia (City: Citadel of Utaia)
+   Assigned total: 55, Local: 0, Outside: 55, Outside fraction: 100.0%
+ - Workers Union of Citadel of Utaia (City: Citadel of Utaia)
+   Assigned total: 8, Local: 0, Outside: 8, Outside fraction: 100.0%
+ - Citadel of Utaia Arts Club (City: Citadel of Utaia)
+   Assigned total: 6, Local: 0, Outside: 6, Outside fraction: 100.0%
+ - Elder Assembly of Citadel of Almo (City: Citadel of Almo)
+   Assigned total: 174, Local: 0, Outside: 174, Outside fraction: 100.0%
+ - Tribal Guard of Citadel of Almo (City: Citadel of Almo)
+   Assigned total: 13, Local: 0, Outside: 13, Outside fraction: 100.0%
+ - Citadel of Almo Ancestry Guardians (City: Citadel of Almo)
+   Assigned total: 25, Local: 0, Outside: 25, Outside fraction: 100.0%
+ - Mystic Order of Citadel of Almo (City: Citadel of Almo)
+   Assigned total: 104, Local: 0, Outside: 104, Outside fraction: 100.0%
+ - Sacred Healers of Citadel of Almo (City: Citadel of Almo)
+   Assigned total: 62, Local: 0, Outside: 62, Outside fraction: 100.0%
+ - Watchmen of Ian (City: Ian)
+   Assigned total: 3, Local: 0, Outside: 3, Outside fraction: 100.0%
+ - Hidden Guild of Ian (City: Ian)
+   Assigned total: 12, Local: 0, Outside: 12, Outside fraction: 100.0%
+ - Knights of Ian (City: Ian)
+   Assigned total: 45, Local: 0, Outside: 45, Outside fraction: 100.0%
+ - Ian Alchemical Society (City: Ian)
+   Assigned total: 47, Local: 0, Outside: 47, Outside fraction: 100.0%
+ - Ian Artisans Guild (City: Ian)
+   Assigned total: 41, Local: 0, Outside: 41, Outside fraction: 100.0%
+ - Aira Alchemical Society (City: Aira)
+   Assigned total: 58, Local: 0, Outside: 58, Outside fraction: 100.0%
+ - Craftsmen Guild of Aira (City: Aira)
+   Assigned total: 246, Local: 1, Outside: 245, Outside fraction: 99.6%
+ - Aira Religious Council (City: Aira)
+   Assigned total: 215, Local: 0, Outside: 215, Outside fraction: 100.0%
+ - Guardians of Aira (City: Aira)
+   Assigned total: 229, Local: 0, Outside: 229, Outside fraction: 100.0%
+ - Aira Noble Council (City: Aira)
+   Assigned total: 56, Local: 0, Outside: 56, Outside fraction: 100.0%
+ - Workers Union of Otety (City: Otety)
+   Assigned total: 6, Local: 0, Outside: 6, Outside fraction: 100.0%
+ - Workers Coalition of Otety (City: Otety)
+   Assigned total: 123, Local: 0, Outside: 123, Outside fraction: 100.0%
+ - United Trades of Otety (City: Otety)
+   Assigned total: 35, Local: 0, Outside: 35, Outside fraction: 100.0%
+ - Otety Arts Club (City: Otety)
+   Assigned total: 8, Local: 0, Outside: 8, Outside fraction: 100.0%
+ - Otety Trade Association (City: Otety)
+   Assigned total: 65, Local: 0, Outside: 65, Outside fraction: 100.0%
+ - Technical Guild of Ithiu (City: Ithiu)
+   Assigned total: 177, Local: 0, Outside: 177, Outside fraction: 100.0%
+ - Ithiu Guild of Trades (City: Ithiu)
+   Assigned total: 84, Local: 0, Outside: 84, Outside fraction: 100.0%
+ - Ithiu Factory Union (City: Ithiu)
+   Assigned total: 1164, Local: 0, Outside: 1164, Outside fraction: 100.0%
+ - Ithiu Commerce Chamber (City: Ithiu)
+   Assigned total: 141, Local: 1, Outside: 140, Outside fraction: 99.3%
+ - Scholars of Ithiu (City: Ithiu)
+   Assigned total: 365, Local: 1, Outside: 364, Outside fraction: 99.7%
+ - Scientific Society of Atsa (City: Atsa)
+   Assigned total: 177, Local: 0, Outside: 177, Outside fraction: 100.0%
+ - Cultural Society of Atsa (City: Atsa)
+   Assigned total: 345, Local: 0, Outside: 345, Outside fraction: 100.0%
+ - Atsa Guild of Trades (City: Atsa)
+   Assigned total: 364, Local: 0, Outside: 364, Outside fraction: 100.0%
+ - Workers Coalition of Atsa (City: Atsa)
+   Assigned total: 197, Local: 1, Outside: 196, Outside fraction: 99.5%
+ - Technical Guild of Atsa (City: Atsa)
+   Assigned total: 216, Local: 0, Outside: 216, Outside fraction: 100.0%
+ - Hidden Guild of Eneya (City: Eneya)
+   Assigned total: 196, Local: 1, Outside: 195, Outside fraction: 99.5%
+ - Sacred Order of Eneya (City: Eneya)
+   Assigned total: 1213, Local: 6, Outside: 1207, Outside fraction: 99.5%
+ - Guild of Eneya Masons (City: Eneya)
+   Assigned total: 360, Local: 1, Outside: 359, Outside fraction: 99.7%
+ - Merchant Guild of Eneya (City: Eneya)
+   Assigned total: 151, Local: 1, Outside: 150, Outside fraction: 99.3%
+ - Eneya Noble Council (City: Eneya)
+   Assigned total: 890, Local: 3, Outside: 887, Outside fraction: 99.7%
+ - Guild of Kure Crafters (City: Kure)
+   Assigned total: 826, Local: 7, Outside: 819, Outside fraction: 99.2%
+ - Kure Knightly Order (City: Kure)
+   Assigned total: 233, Local: 2, Outside: 231, Outside fraction: 99.1%
+ - Thieves of Kure (City: Kure)
+   Assigned total: 106, Local: 1, Outside: 105, Outside fraction: 99.1%
+ - Holy Order of Kure (City: Kure)
+   Assigned total: 204, Local: 0, Outside: 204, Outside fraction: 100.0%
+ - Kure Builder's Guild (City: Kure)
+   Assigned total: 847, Local: 6, Outside: 841, Outside fraction: 99.3%
+ - High Houses of Itia (City: Itia)
+   Assigned total: 243, Local: 0, Outside: 243, Outside fraction: 100.0%
+ - Alchemists of Itia (City: Itia)
+   Assigned total: 597, Local: 0, Outside: 597, Outside fraction: 100.0%
+ - Masons of Itia (City: Itia)
+   Assigned total: 602, Local: 1, Outside: 601, Outside fraction: 99.8%
+ - Sacred Order of Itia (City: Itia)
+   Assigned total: 304, Local: 0, Outside: 304, Outside fraction: 100.0%
+ - Itia Shadow Guild (City: Itia)
+   Assigned total: 111, Local: 0, Outside: 111, Outside fraction: 100.0%
+ - Tribal Warriors of Vul (City: Vul)
+   Assigned total: 100, Local: 0, Outside: 100, Outside fraction: 100.0%
+ - Vul Medicine Circle (City: Vul)
+   Assigned total: 537, Local: 1, Outside: 536, Outside fraction: 99.8%
+ - Spirit Council of Vul (City: Vul)
+   Assigned total: 903, Local: 7, Outside: 896, Outside fraction: 99.2%
+ - Traditional Crafters of Vul (City: Vul)
+   Assigned total: 251, Local: 4, Outside: 247, Outside fraction: 98.4%
+ - Vul Elder Council (City: Vul)
+   Assigned total: 110, Local: 1, Outside: 109, Outside fraction: 99.1%
+ - Teveh Medicine Circle (City: Teveh)
+   Assigned total: 373, Local: 0, Outside: 373, Outside fraction: 100.0%
+ - Teveh Hunter's Lodge (City: Teveh)
+   Assigned total: 368, Local: 0, Outside: 368, Outside fraction: 100.0%
+ - Elder Assembly of Teveh (City: Teveh)
+   Assigned total: 222, Local: 0, Outside: 222, Outside fraction: 100.0%
+ - Teveh Gathering Circle (City: Teveh)
+   Assigned total: 1567, Local: 4, Outside: 1563, Outside fraction: 99.7%
+ - Craftsmen of Teveh (City: Teveh)
+   Assigned total: 1469, Local: 7, Outside: 1462, Outside fraction: 99.5%
+ - Keepers of Vea Traditions (City: Vea)
+   Assigned total: 29, Local: 0, Outside: 29, Outside fraction: 100.0%
+ - Elder Assembly of Vea (City: Vea)
+   Assigned total: 32, Local: 0, Outside: 32, Outside fraction: 100.0%
+ - Vea Spirit Keepers (City: Vea)
+   Assigned total: 29, Local: 0, Outside: 29, Outside fraction: 100.0%
+ - Vea Hunter's Lodge (City: Vea)
+   Assigned total: 30, Local: 0, Outside: 30, Outside fraction: 100.0%
+ - Tribal Guard of Vea (City: Vea)
+   Assigned total: 95, Local: 1, Outside: 94, Outside fraction: 98.9%
+ - Wild Hunters of Tlida (City: Tlida)
+   Assigned total: 1206, Local: 4, Outside: 1202, Outside fraction: 99.7%
+ - Mystic Council of Tlida (City: Tlida)
+   Assigned total: 176, Local: 0, Outside: 176, Outside fraction: 100.0%
+ - Elder Assembly of Tlida (City: Tlida)
+   Assigned total: 322, Local: 2, Outside: 320, Outside fraction: 99.4%
+ - Healers of Tlida (City: Tlida)
+   Assigned total: 371, Local: 1, Outside: 370, Outside fraction: 99.7%
+ - Protectors of Tlida (City: Tlida)
+   Assigned total: 169, Local: 0, Outside: 169, Outside fraction: 100.0%
+ - Craftsmen of Harruresh (City: Harruresh)
+   Assigned total: 719, Local: 5, Outside: 714, Outside fraction: 99.3%
+ - Warriors of Harruresh (City: Harruresh)
+   Assigned total: 1504, Local: 6, Outside: 1498, Outside fraction: 99.6%
+ - Shamans of Harruresh (City: Harruresh)
+   Assigned total: 2674, Local: 22, Outside: 2652, Outside fraction: 99.2%
+ - Harruresh Medicine Circle (City: Harruresh)
+   Assigned total: 1501, Local: 9, Outside: 1492, Outside fraction: 99.4%
+ - Elder Assembly of Harruresh (City: Harruresh)
+   Assigned total: 800, Local: 7, Outside: 793, Outside fraction: 99.1%
+ - Shamans of Ubahmia (City: Ubahmia)
+   Assigned total: 451, Local: 0, Outside: 451, Outside fraction: 100.0%
+ - Wild Hunters of Ubahmia (City: Ubahmia)
+   Assigned total: 383, Local: 0, Outside: 383, Outside fraction: 100.0%
+ - Ancestral Keepers of Ubahmia (City: Ubahmia)
+   Assigned total: 162, Local: 0, Outside: 162, Outside fraction: 100.0%
+ - Ubahmia Artisan Circle (City: Ubahmia)
+   Assigned total: 102, Local: 1, Outside: 101, Outside fraction: 99.0%
+ - Ubahmia Gathering Circle (City: Ubahmia)
+   Assigned total: 163, Local: 0, Outside: 163, Outside fraction: 100.0%
+ - Roparia War Band (City: Roparia)
+   Assigned total: 29, Local: 0, Outside: 29, Outside fraction: 100.0%
+ - Gatherers of Roparia (City: Roparia)
+   Assigned total: 44, Local: 0, Outside: 44, Outside fraction: 100.0%
+ - Roparia Shamanic Circle (City: Roparia)
+   Assigned total: 30, Local: 0, Outside: 30, Outside fraction: 100.0%
+ - Wild Hunters of Roparia (City: Roparia)
+   Assigned total: 7, Local: 0, Outside: 7, Outside fraction: 100.0%
+ - Keepers of Roparia Traditions (City: Roparia)
+   Assigned total: 14, Local: 0, Outside: 14, Outside fraction: 100.0%
+ - Fibeon Gathering Circle (City: Fibeon)
+   Assigned total: 254, Local: 0, Outside: 254, Outside fraction: 100.0%
+ - Sacred Healers of Fibeon (City: Fibeon)
+   Assigned total: 148, Local: 1, Outside: 147, Outside fraction: 99.3%
+ - Fibeon Artisan Circle (City: Fibeon)
+   Assigned total: 322, Local: 0, Outside: 322, Outside fraction: 100.0%
+ - Ancestral Keepers of Fibeon (City: Fibeon)
+   Assigned total: 488, Local: 0, Outside: 488, Outside fraction: 100.0%
+ - Wild Hunters of Fibeon (City: Fibeon)
+   Assigned total: 124, Local: 0, Outside: 124, Outside fraction: 100.0%
+ - Shma Ancestry Guardians (City: Shma)
+   Assigned total: 362, Local: 0, Outside: 362, Outside fraction: 100.0%
+ - Elder Assembly of Shma (City: Shma)
+   Assigned total: 209, Local: 1, Outside: 208, Outside fraction: 99.5%
+ - Gatherers of Shma (City: Shma)
+   Assigned total: 812, Local: 1, Outside: 811, Outside fraction: 99.9%
+ - Shma Shamanic Circle (City: Shma)
+   Assigned total: 186, Local: 0, Outside: 186, Outside fraction: 100.0%
+ - Shma Spirit Keepers (City: Shma)
+   Assigned total: 840, Local: 2, Outside: 838, Outside fraction: 99.8%
+ - Trade Union of Auera (City: Auera)
+   Assigned total: 55, Local: 0, Outside: 55, Outside fraction: 100.0%
+ - Auera Engineering Society (City: Auera)
+   Assigned total: 235, Local: 0, Outside: 235, Outside fraction: 100.0%
+ - Cultural Circle of Auera (City: Auera)
+   Assigned total: 117, Local: 0, Outside: 117, Outside fraction: 100.0%
+ - Workers Coalition of Auera (City: Auera)
+   Assigned total: 119, Local: 0, Outside: 119, Outside fraction: 100.0%
+ - Scientific Society of Auera (City: Auera)
+   Assigned total: 122, Local: 1, Outside: 121, Outside fraction: 99.2%
+ - Holy Order of Ieye (City: Ieye)
+   Assigned total: 805, Local: 4, Outside: 801, Outside fraction: 99.5%
+ - Order of Ieye Knights (City: Ieye)
+   Assigned total: 460, Local: 5, Outside: 455, Outside fraction: 98.9%
+ - Guild of Ieye Crafters (City: Ieye)
+   Assigned total: 733, Local: 3, Outside: 730, Outside fraction: 99.6%
+ - Guardians of Ieye (City: Ieye)
+   Assigned total: 206, Local: 0, Outside: 206, Outside fraction: 100.0%
+ - Ieye Commerce League (City: Ieye)
+   Assigned total: 184, Local: 1, Outside: 183, Outside fraction: 99.5%
+ - Guild of Oatue Merchants (City: Oatue)
+   Assigned total: 118, Local: 0, Outside: 118, Outside fraction: 100.0%
+ - Oatue Knightly Order (City: Oatue)
+   Assigned total: 1995, Local: 7, Outside: 1988, Outside fraction: 99.6%
+ - Watchmen of Oatue (City: Oatue)
+   Assigned total: 1207, Local: 5, Outside: 1202, Outside fraction: 99.6%
+ - Holy Order of Oatue (City: Oatue)
+   Assigned total: 543, Local: 1, Outside: 542, Outside fraction: 99.8%
+ - Hidden Guild of Oatue (City: Oatue)
+   Assigned total: 254, Local: 0, Outside: 254, Outside fraction: 100.0%
+ - Uiaria Guardians (City: Uiaria)
+   Assigned total: 244, Local: 0, Outside: 244, Outside fraction: 100.0%
+ - Hunters of Uiaria (City: Uiaria)
+   Assigned total: 925, Local: 3, Outside: 922, Outside fraction: 99.7%
+ - Uiaria War Band (City: Uiaria)
+   Assigned total: 791, Local: 1, Outside: 790, Outside fraction: 99.9%
+ - Mystic Council of Uiaria (City: Uiaria)
+   Assigned total: 407, Local: 0, Outside: 407, Outside fraction: 100.0%
+ - Elder Assembly of Uiaria (City: Uiaria)
+   Assigned total: 201, Local: 0, Outside: 201, Outside fraction: 100.0%
+ - United Workers of Aneroa (City: Aneroa)
+   Assigned total: 237, Local: 0, Outside: 237, Outside fraction: 100.0%
+ - Learned Society of Aneroa (City: Aneroa)
+   Assigned total: 1660, Local: 4, Outside: 1656, Outside fraction: 99.8%
+ - Aneroa Commerce Chamber (City: Aneroa)
+   Assigned total: 112, Local: 1, Outside: 111, Outside fraction: 99.1%
+ - Cultural Society of Aneroa (City: Aneroa)
+   Assigned total: 1490, Local: 5, Outside: 1485, Outside fraction: 99.7%
+ - Trade Council of Aneroa (City: Aneroa)
+   Assigned total: 263, Local: 0, Outside: 263, Outside fraction: 100.0%
+ - Atar Academy (City: Atar)
+   Assigned total: 216, Local: 0, Outside: 216, Outside fraction: 100.0%
+ - Atar Commerce Chamber (City: Atar)
+   Assigned total: 249, Local: 0, Outside: 249, Outside fraction: 100.0%
+ - Trade Union of Atar (City: Atar)
+   Assigned total: 68, Local: 0, Outside: 68, Outside fraction: 100.0%
+ - Commerce Guild of Atar (City: Atar)
+   Assigned total: 933, Local: 1, Outside: 932, Outside fraction: 99.9%
+ - Chamber of Commerce of Atar (City: Atar)
+   Assigned total: 142, Local: 1, Outside: 141, Outside fraction: 99.3%
+ - Iinasia Trade Association (City: Iinasia)
+   Assigned total: 27, Local: 0, Outside: 27, Outside fraction: 100.0%
+ - Iinasia Labor Union (City: Iinasia)
+   Assigned total: 131, Local: 0, Outside: 131, Outside fraction: 100.0%
+ - Industrial Union of Iinasia (City: Iinasia)
+   Assigned total: 53, Local: 0, Outside: 53, Outside fraction: 100.0%
+ - United Trades of Iinasia (City: Iinasia)
+   Assigned total: 230, Local: 0, Outside: 230, Outside fraction: 100.0%
+ - Chamber of Commerce of Iinasia (City: Iinasia)
+   Assigned total: 459, Local: 0, Outside: 459, Outside fraction: 100.0%
+ - Business League of Ouiar (City: Ouiar)
+   Assigned total: 279, Local: 1, Outside: 278, Outside fraction: 99.6%
+ - Ouiar Guild of Trades (City: Ouiar)
+   Assigned total: 262, Local: 0, Outside: 262, Outside fraction: 100.0%
+ - Scholars of Ouiar (City: Ouiar)
+   Assigned total: 276, Local: 2, Outside: 274, Outside fraction: 99.3%
+ - Ouiar Commercial Council (City: Ouiar)
+   Assigned total: 278, Local: 2, Outside: 276, Outside fraction: 99.3%
+ - Workers Coalition of Ouiar (City: Ouiar)
+   Assigned total: 486, Local: 2, Outside: 484, Outside fraction: 99.6%
